@@ -1,0 +1,15 @@
+AMD CEO Sees Chip Shortage Easing in 2022
+
+The semiconductor shortage will begin to ease in 2022, Advanced Micro Devices CEO Lisa Su said at a session Monday at the Code Conference in Beverly Hills.
+
+In an on-stage interview with Code Conference producer Kara Swisher and CNBC tech reporter Jon Fortt, the AMD (ticker: AMD) chief said that the semiconductor industry is investing aggressively in new capacity, with 20 new factories coming online this year and a similar number expected to come online in 2022. 
+
+But Su also noted that the pandemic has “taken demand to a new level,” with every industry seeking more components. “Nobody expected this much demand,” she says.
+
+Su dodged a question about whether AMD was threatened by a shift by some electronics companies to chips designed in house. 
+
+Su also said the company continues to expect to close its pending acquisition of Xilinx (XLNX) by year end. She also said that consolidation in the chip industry is “inevitable.”
+
+Asked about the use of AMD chips for crypto currency mining, Su said it is a small part of its business. She says the company is trying hard to get more products to gamers and the core business, rather than on crypto.
+
+Write to Eric J. Savitz at eric.savitz@barrons.com

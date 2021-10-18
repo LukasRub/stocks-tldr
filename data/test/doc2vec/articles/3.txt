@@ -1,0 +1,148 @@
+NIO: Consumers Will Soon Realize NIO Has What Other EVs Are Missing, BaaS
+
+Summary
+NIO is a leading player in the Chinese electric vehicle market and their unique technology grants it several long-term advantages over competitors.
+Their battery as a service technology solves a lot of short and long-term problems with EVs and cars in general.
+China has been on a legislative tear recently, hurting many domestic companies. However, NIO's mission lines up with many Chinese goals and is likely to enjoy preferential treatment.
+The current fall of Chinese stocks makes NIO an attractive long-term investment.
+NIO logo and the Nio"s user center, NIO House
+Andy Feng/iStock Editorial via Getty Images
+Thesis
+NIO Inc. (NIO) is one of the leading electric vehicle producers in China, the largest market for EVs. While still being outsold by Tesla (TSLA), the fast-growing nature of the company and market offers promise. Their battery as a service subscription option offers NIO a unique advantage and solves many of the problems consumers have with EVs. The stock has seen some weakness over the past three months, mainly because of China's massive regulatory crackdown. NIO, however, will likely see preferential treatment as the goals of the company align with that of the Chinese Communist Party.
+
+NIO's current position
+To understand NIO's position in the Chinese EV market, we first need to understand the Chinese EV market.
+
+First off, ICE vehicles are still dominant in China, but the market for EVs seems to be in the early stages of exponential growth and is expected to continue to grow rapidly, with EVs expected to make up ~34% of total Chinese car sales in 2025.
+
+China car sales
+
+Source: Business Insider
+
+Being an early leader and domestic producer of EVs should position NIO well for this type of growth.
+
+The Chinese electric vehicle market is pretty fragmented, but Tesla has a solid lead. Chinese companies BYD (OTCPK:BYDDY), NIO, XPeng (XPEV), and Li Auto (LI) are also relevant. In 2020, Tesla sold ~135k vehicles in China, while BYD shipped 130k units, NIO shipped 44k units, XPeng shipped 27k units, and Li shipped 15k.
+
+It is worth noting that these figures will likely be quite different for the full year 2021. The market is growing and changing rapidly, and new EVs like the Wuling Hong Guang MINI EV made by SAIC-GM-Wuling, a sub $5,000 car with a top speed of 62 mph, are flying off the shelves.
+
+NIO's advantage
+I firmly believe that NIO's battery as a service and battery swap offerings will benefit NIO in the long run. This is rooted in the belief that efficient battery swapping can solve or alleviate many of the pain points that consumers have with EVs, but consumers have not realized that yet.
+
+Battery swap program
+Nio battery swap
+
+Source: Electrek
+
+NIO offers drivers a monthly subscription to drivers that grants them access to their 484 swap stations. NIO claims to have completed over 2 million swaps. This unique approach, previously abandoned by Tesla after a poor performance in 2015, offers more advantages to their consumers than immediately apparent. Battery as a service (BaaS) solves or alleviates a lot of problems that all EVs have.
+
+The problems
+EVs have a lot of advantages over gasoline-powered cars, as I am sure your friendly neighborhood Tesla owner has informed you of. They boast instant torque and quiet performance, neither of which can be said about their ICE counterparts. That being said, if EVs were unilaterally better than gasoline-powered cars, they would have seen much higher adoption by this point in time. It is clear the market still sees some problems with EVs, and I think BaaS can help.
+
+Some of the problems include:
+
+High upfront cost. Despite the promised savings on fuel and maintenance throughout ownership, some people are turned off by the higher upfront cost of owning an electric vehicle. For example, the NIO ES6, their basic SUV, costs the equivalent of $52,000. On the other hand, the Haval H6, the 2020 best-selling SUV in China, starts at just over $17,000.
+
+Range anxiety. While the NIO's ES6 already has a stellar range of 380 miles, range anxiety is often cited as one of the main concerns people have when considering buying an electric vehicle.
+
+Long charge times. Charging NIO's 100 kWh battery from empty using their charge station will take 5 hours with a 20 kW system and 14 hours with a 7kW system.
+
+Battery degradation. This problem is highly noticeable in phones. A phone that was once able to last an entire day may not be able to make it through lunch without losing 20% a year later. Logically, people wonder if they will have the same problem with the batteries in their car. According to a recent survey, 46% of consumers believe that their battery will last 65k miles or less.
+
+High cost of battery replacement. This is one that is more assumed and has less hard data to back it up. I am sure engine replacements in case of engine failure in ICE cars cost quite a bit as well. That being said, the idea of battery failure resulting in a replacement fee of upwards of $10,000 is certainly not a draw to EVs.
+
+A belief that the battery will give out under 65k miles is largely unfounded. However, while EVs have measures to keep battery degradation from happening, it does happen.
+
+Here are the results of a UK study of 1,016 EVs purchased from 2014-2019 and the percent of the original range they had.
+
+
+
+Source: which.co.uk
+
+There is a noticeable and exponential pattern of battery decay over time. While it appears this is not a major concern among people who own EVs or even potential owners, this certainly is not a draw.
+
+In general, most of the sore spots consumers have with EVs are related to the battery. Whether it long charge times, degradation, high costs, etc., electric vehicles have a lot of problems to overcome before they see large-scale adoption.
+
+How battery swap can help
+Those issues above cover a large range of issues preventing people from switching to an electric vehicle. Below are the ways that BaaS can alleviate or solve them.
+
+For the higher upfront cost, NIO has leveraged their BaaS to save consumers money at the point of purchase. If the consumer agrees to sign up for the BaaS subscription program, which costs ~USD 142 per month and grants them six swaps per month, they enjoy USD 10,000 off the vehicle's purchase price. While this does not yet put NIO in the price range of their gasoline-powered competitors, it is a step in the right direction and will likely yield better results as the price of batteries continues to come down.
+
+Long charge times seem to be the main reason BaaS was implemented in the first place. It appears that a lot of consumers enjoy knowing that, nearly anywhere, they can stop for fuel, and within 5 minutes, have a full tank of gas and are ready to get back onto the road. With EVs, this is not the case. Even with Tesla's V3 superchargers, to go from 0-100% takes 63.5 minutes. At a NIO power swap station, a total battery replacement can take place in just three minutes, giving the driver a fresh battery with a full charge. This is about the same amount of time spent refueling a car, and it is arguably more passive as there is no need to get out and pump gas. As a cherry on top, automatic battery and electric system checks are completed to ensure that the battery and car are in top shape.
+
+Battery degradation is also aided by battery swap. Unfortunately, there is not much research on battery degradation and how it affects consumer decisions, but I thought smartphones would be an interesting parallel to draw.
+
+Smartphone poll
+
+Source: Statista
+
+Smartphones are nearly ubiquitous, and it is evident to anyone who has had a phone for more than a year that, over time, the battery begins to hold less charge. In fact, it is the second most popular reason why people choose to buy new phones, ranked even higher than wanting a newer model.
+
+Phones are one of, if not people's most extensive interaction with a lithium-ion battery. People tend to upgrade their phones every two years. If, after two years, people are noticing such a massive reduction in battery life that they are forced to upgrade, they may be turned away from a battery-powered car.
+
+The option to swap out a degraded battery for a fresh one in minutes at no extra charge would fix this problem.
+
+The argument that BaaS helps with range anxiety is less clear than the arguments listed above; however, I think it is compelling. Here is a graph showing the range of electric vehicles over time.
+
+EV range in 2020
+
+Source: insideevs
+
+While some of this is due to an increase in the efficiency in cars, the steady linear growth in the range is primarily due to increases in battery capacity. Here is an excerpt from an inside EVs article that shows their progression.
+
+NIO first started with a 70 kWh battery in 2018, then introduced 84 kWh in 2019 and most recently 100 kWh versions in late 2020.
+
+As you can see, EVs went from a median range on a full charge of about 70 miles to over 270 miles, a nearly 4x increase in range over just nine years.
+
+NIO knows that they will continue to improve their battery capacity over time and that consumers are still looking for more range out of their cars. For that reason, all of their cars are designed to be able to fit any future batteries in them.
+
+A perfect, and exciting, example of this was announced recently. NIO is launching a 150 kWh battery in 2022.
+
+This is supposed to be included in their ET7 model, but, this is where BaaS gets really cool.
+
+Here is a quote from this Inside EVs article recapping the announcement.
+
+All NIO users can opt to upgrade to 150 kWh battery. The first-generation 2018 NIO ES8 with a new 150 kWh will be able to get an NEDC range of more than 730 km (454 miles).
+
+To put that into perspective, at launch, the 2018 NIO ES8 had a comparatively poor 220-mile range. Going to a swapping station after the rollout of this battery would result in a more than doubling of the range the car had when you bought it, ~4 years ago.
+
+From a consumer perspective, compare doubling capacity to a 10% (and exponentially growing) reduction in battery capacity over a similar time period.
+
+Quick overview of China
+This article is getting long, but I feel the need to briefly go over my opinion on how NIO will be affected by the current situations in China. NIO is headquartered in Shanghai, so not addressing China would be to ignore the elephant in the room.
+
+What is happening there?
+China has recently been on an absolute legislative tear. They have cracked down on rideshare companies, video game companies, and the steel industry, to name a few. These aggressive and seemingly unending policies have sent Chinese stocks, including NIO, down significantly from highs. Here is a chart of the Chinese version of the S&P 500, down more than 30% from 52-week highs.
+
+GXC chart
+
+Source: Google Finance
+
+Why NIO should be fine
+I recently wrote an article on Rio Tinto (RIO), an iron ore supplier to China's massive steel production industry. In the research for that article, I learned that China's crackdown on steel was mainly in pursuit of its goal of net-zero carbon emissions by the year 2060. Electric vehicles would be in line with this goal.
+
+Secondly, take a look at some of these policies I found in an article written by Columbia University. These are paraphrased, but the spirit of these laws remains the same.
+
+In 2019, each Chinese vehicle manufacturer and importer was required to make or import at least 10% electric vehicles. The percentage increased to 12% in 2020.
+The Chinese government provides subsidies to manufacturers of electric vehicles. All electric or hybrid cars are eligible for subsidies between USD 1,500 and USD 3,600, depending on the type and range of the vehicle.
+The Chinese government exempts electric vehicles from consumption and sales taxes, saving purchasers tens of thousands of RMB (equivalent to thousands of dollars). It also waives 50% of vehicle registration fees for electric vehicles.
+The Chinese government also uses its procurement power to promote electric vehicles. A May 2016 order requires that half of the new vehicles purchased by China's central government be new energy vehicles within five years.
+The Chinese central government promotes the development of EV charging infrastructure as a matter of national policy. It sets targets (120,000 EV charging stations and 4.8 million EV charging posts by 2020), provides funding, and mandates standards.
+All of these policies show strong support for electric vehicles, but what about NIO in general. Well, the Chinese government seems fond of them, and in early 2020, several state-owned groups issued NIO a $1 billion "investment" (widely considered a bailout.)
+
+While there is not much evidence for China preferring NIO over Tesla yet, it would make sense for China to pick a domestic company to dominate their auto market.
+
+The only way I see China's involvement in NIO hurting, instead of helping, US investors is if they crackdown on the stock market as a whole. If China decided to run NIO, or take it private, and use its power to void the VEI contracts that US investors hold, that would obviously be bad for investors.
+
+However, even for China, this would be a hostile move that would arguably hurt their economy as they lose the ability to easily access capital injection from overseas.
+
+Brief assessment of Evergrande crisis
+Right now, the situation is still developing, and it is unclear how it will play out. But basically, there are three potential outcomes of this crisis.
+
+Situation one, nothing bad happens. If that is the case, perfect, you should take advantage of the discount from all-time highs (which isn't entirely due to Evergrande) and buy-in.
+
+Situation two, something sort of bad happens. In this case, NIO will almost certainly see some hit or another in share price. It is already pretty low and has bounced off the ~$30 level in the past, but anything is possible in the short term. If this is the case, and NIO does fall, I recommend buying in at even lower prices.
+
+Situation three, something really bad happens. If something really bad happens and all of China is affected, then the auto industry would almost certainly enter a period of low sales. This would hurt NIO as a company, as they are currently in a rapid growth mode that depends on recurring revenue to continue investments in themselves. In this case, a re-evaluation would be necessary to determine if NIO will be able to survive and thrive post-crisis.
+
+Conclusion
+NIO has a technology that offers a solution to many of the problems that EVs face, and it seems a large portion of consumers have yet to realize that. BaaS either alleviates or solves the problems of high upfront cost, long charging times, range anxiety, battery degradation, and obsolescence. They also are the leader, by a long shot, in BaaS and the infrastructure needed to support it. So, if consumers do take a liking to it, it would take a long time for competitors to catch up. Even if the situations in China push the stock price down, I will continue holding, and potentially buy more NIO shares and sell covered calls. I would recommend other EV bulls do the same. China seems unwilling to let NIO fail, and unless the CCP reverses its climate stance or takes total control over NIO, US investors should stand to profit.
