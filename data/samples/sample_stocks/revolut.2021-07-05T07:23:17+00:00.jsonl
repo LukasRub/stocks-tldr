@@ -1,0 +1,915 @@
+{"name":"21st Century Fox","ticker":"FOXA","sector":"Consumer Services","industry":"Broadcasting"}
+{"name":"23andMe Holding Co","ticker":"ME","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"2U","ticker":"TWOU","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"3M","ticker":"MMM","sector":"Producer Manufacturing","industry":"Industrial Conglomerates"}
+{"name":"Abbott Labs","ticker":"ABT","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"AbbVie","ticker":"ABBV","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Abercrombie & Fitch","ticker":"ANF","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Accenture PLC","ticker":"ACN","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"ACE Convergence Acquisition Corp","ticker":"ACEV","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Activision Blizzard","ticker":"ATVI","sector":"Consumer Durables","industry":"Recreational Products"}
+{"name":"Adobe","ticker":"ADBE","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Advance Auto Parts","ticker":"AAP","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Advanced Micro Devices","ticker":"AMD","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Affirm Holdings","ticker":"AFRM","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Aflac","ticker":"AFL","sector":"Finance","industry":"Life\/Health Insurance"}
+{"name":"Agilent Technologies","ticker":"A","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Agilon Health","ticker":"AGL","sector":"Health Services","industry":"Medical\/Nursing Services"}
+{"name":"AGNC Investment","ticker":"AGNC","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"AIG","ticker":"AIG","sector":"Finance","industry":"Multi-Line Insurance"}
+{"name":"Air Lease Corporation","ticker":"AL","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Air Products and Chemicals","ticker":"APD","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"Airbnb Inc","ticker":"ABNB","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Ajax I","ticker":"AJAX","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Akamai Technologies","ticker":"AKAM","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Albemarle Corporation","ticker":"ALB","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"Alcoa","ticker":"AA","sector":"Non-Energy Minerals","industry":"Aluminum"}
+{"name":"Alexion Pharmaceuticals","ticker":"ALXN","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Alibaba","ticker":"BABA","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Align Technology","ticker":"ALGN","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Allot Communications","ticker":"ALLT","sector":"Electronic Technology","industry":"Computer Communications"}
+{"name":"Allscripts Healthcare Solutions","ticker":"MDRX","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Allstate","ticker":"ALL","sector":"Finance","industry":"Property\/Casualty Insurance"}
+{"name":"Ally Financial","ticker":"ALLY","sector":"Finance","industry":"Regional Banks"}
+{"name":"Alphabet (Class A)","ticker":"GOOGL","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Alphabet (Class C)","ticker":"GOOG","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Alteryx","ticker":"AYX","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Altice USA","ticker":"ATUS","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Altria","ticker":"MO","sector":"Consumer Non-Durables","industry":"Tobacco"}
+{"name":"Amazon","ticker":"AMZN","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Ambev","ticker":"ABEV","sector":"Consumer Non-Durables","industry":"Beverages: Alcoholic"}
+{"name":"AMC","ticker":"AMC","sector":"Consumer Services","industry":"Movies\/Entertainment"}
+{"name":"Ameresco","ticker":"AMRC","sector":"Industrial Services","industry":"Engineering & Construction"}
+{"name":"American Airlines","ticker":"AAL","sector":"Transportation","industry":"Airlines"}
+{"name":"American Axle & Manufacturing","ticker":"AXL","sector":"Producer Manufacturing","industry":"Auto Parts: OEM"}
+{"name":"American Eagle Outfitters","ticker":"AEO","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"American Electric Power","ticker":"AEP","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"American Express","ticker":"AXP","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"American Homes 4 Rent","ticker":"AMH","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"American Tower","ticker":"AMT","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Americold Realty Trust","ticker":"COLD","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Ametek","ticker":"AME","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Amgen","ticker":"AMGN","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Amicus Therapeutics","ticker":"FOLD","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Amneal Pharmaceuticals","ticker":"AMRX","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Amphenol","ticker":"APH","sector":"Electronic Technology","industry":"Electronic Components"}
+{"name":"Analog Devices","ticker":"ADI","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Anaplan","ticker":"PLAN","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"ANGI Homeservices","ticker":"ANGI","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"AngloGold Ashanti","ticker":"AU","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Anheuser Busch Inbev NV","ticker":"BUD","sector":"Consumer Non-Durables","industry":"Beverages: Alcoholic"}
+{"name":"Annaly Capital Management","ticker":"NLY","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Ansys","ticker":"ANSS","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Antero Midstream Partners LP","ticker":"AM","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Antero Resources Corporation","ticker":"AR","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Anthem","ticker":"ANTM","sector":"Health Services","industry":"Managed Health Care"}
+{"name":"AO Smith","ticker":"AOS","sector":"Producer Manufacturing","industry":"Building Products"}
+{"name":"Apache","ticker":"APA","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Apollo Commercial Real Estate Finance","ticker":"ARI","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Apollo Strategic Growth Capital","ticker":"APSG","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Appian Corporation","ticker":"APPN","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Apple","ticker":"AAPL","sector":"Electronic Technology","industry":"Telecommunications Equipment"}
+{"name":"Applied Materials","ticker":"AMAT","sector":"Producer Manufacturing","industry":"Industrial Machinery"}
+{"name":"AppLovin Corp","ticker":"APP","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"AptarGroup","ticker":"ATR","sector":"Process Industries","industry":"Containers\/Packaging"}
+{"name":"Aramark","ticker":"ARMK","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Archer-Daniels-Midland","ticker":"ADM","sector":"Process Industries","industry":"Agricultural Commodities\/Milling"}
+{"name":"Arconic","ticker":"ARNC","sector":"Non-Energy Minerals","industry":"Aluminum"}
+{"name":"Arcturus Therapeutics Holdings Inc","ticker":"ARCT","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Ares Capital","ticker":"ARCC","sector":"Finance","industry":"Investment Managers"}
+{"name":"Arista Networks","ticker":"ANET","sector":"Electronic Technology","industry":"Computer Communications"}
+{"name":"ARMOUR Residential","ticker":"ARR","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Arrival Group","ticker":"ARVL","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Asana Inc","ticker":"ASAN","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"ASML Holding","ticker":"ASML","sector":"Producer Manufacturing","industry":"Industrial Machinery"}
+{"name":"AstraZeneca PLC","ticker":"AZN","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"At Home Group","ticker":"HOME","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"AT&T","ticker":"T","sector":"Communications","industry":"Major Telecommunications"}
+{"name":"Atlantica Sustainable Infrastructure","ticker":"AY","sector":"Utilities","industry":"Alternative Power Generation"}
+{"name":"ATI Physical Therapy","ticker":"ATIP","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Atlas Crest Investment Corp","ticker":"ACIC","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Atlassian Corporation Plc","ticker":"TEAM","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Autodesk","ticker":"ADSK","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Autohome","ticker":"ATHM","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Automatic Data Processing","ticker":"ADP","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"AutoZone","ticker":"AZO","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Avalara","ticker":"AVLR","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"AvalonBay Communities","ticker":"AVB","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"AXA Equitable Holdings","ticker":"EQH","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Axalta Coating Systems","ticker":"AXTA","sector":"Process Industries","industry":"Industrial Specialties"}
+{"name":"Axon Enterprise Inc","ticker":"AXON","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"B2Gold Corporation","ticker":"BTG","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Baidu","ticker":"BIDU","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Baker Hughes","ticker":"BKR","sector":"Industrial Services","industry":"Oilfield Services\/Equipment"}
+{"name":"Ball Corporation","ticker":"BLL","sector":"Process Industries","industry":"Containers\/Packaging"}
+{"name":"Ballard Power Systems","ticker":"BLDP","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Banco Bradesco S.A. \u2013 Preferred Shares","ticker":"BBD","sector":"Finance","industry":"Major Banks"}
+{"name":"Banco Macro","ticker":"BMA","sector":"Finance","industry":"Regional Banks"}
+{"name":"Banco Santander (Brasil)","ticker":"BSBR","sector":"Finance","industry":"Regional Banks"}
+{"name":"Bank of America","ticker":"BAC","sector":"Finance","industry":"Major Banks"}
+{"name":"Baozun Inc","ticker":"BZUN","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Barclays PLC","ticker":"BCS","sector":"Finance","industry":"Major Banks"}
+{"name":"Barrick Gold","ticker":"GOLD","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Bausch Health Companies","ticker":"BHC","sector":"Health Technology","industry":"Pharmaceuticals: Other"}
+{"name":"Baxter","ticker":"BAX","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"BBVA Banco Franc\u00e9s","ticker":"BBAR","sector":"Finance","industry":"Regional Banks"}
+{"name":"Becton Dickinson","ticker":"BDX","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Belden","ticker":"BDC","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Berkshire Hathaway","ticker":"BRK.B","sector":"Finance","industry":"Multi-Line Insurance"}
+{"name":"Best Buy","ticker":"BBY","sector":"Retail Trade","industry":"Electronics\/Appliance Stores"}
+{"name":"Beyond Meat","ticker":"BYND","sector":"Consumer Non-Durables","industry":"Food: Major Diversified"}
+{"name":"BHP Billiton","ticker":"BHP","sector":"Non-Energy Minerals","industry":"Other Metals\/Minerals"}
+{"name":"Bilibili","ticker":"BILI","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Bio-Rad Laboratories","ticker":"BIO","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Biogen","ticker":"BIIB","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Biomarin Pharmaceutical","ticker":"BMRN","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"BioNTech SE","ticker":"BNTX","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"BJ\u2019s Wholesale Club Holdings","ticker":"BJ","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"BlackBerry","ticker":"BB","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"BlackRock","ticker":"BLK","sector":"Finance","industry":"Investment Managers"}
+{"name":"Blackstone","ticker":"BX","sector":"Finance","industry":"Investment Managers"}
+{"name":"BNY Mellon","ticker":"BK","sector":"Finance","industry":"Major Banks"}
+{"name":"Boeing","ticker":"BA","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Booking","ticker":"BKNG","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Booz Allen Hamilton","ticker":"BAH","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"BorgWarner","ticker":"BWA","sector":"Producer Manufacturing","industry":"Auto Parts: OEM"}
+{"name":"Boston Scientific","ticker":"BSX","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Box","ticker":"BOX","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"BP plc","ticker":"BP","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"BRF","ticker":"BRFS","sector":"Consumer Non-Durables","industry":"Food: Meat\/Fish\/Dairy"}
+{"name":"Bristol-Myers Squibb","ticker":"BMY","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Brixmor Property Group","ticker":"BRX","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Broadcom","ticker":"AVGO","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Brookfield Asset Management Inc.","ticker":"BAM","sector":"Finance","industry":"Investment Managers"}
+{"name":"Brookfield Asset Management Reinsurance Partners Inc.","ticker":"BAMR","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Brookfield Infrastructure Corp","ticker":"BIPC","sector":"Utilities","industry":"Gas Distributors"}
+{"name":"Brookfield Infrastructure Partners","ticker":"BIP","sector":"Utilities","industry":"Alternative Power Generation"}
+{"name":"Brookfield Renewable Corporation","ticker":"BEPC","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Brookfield Renewable Partners","ticker":"BEP","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Brown Forman","ticker":"BF.B","sector":"Consumer Non-Durables","industry":"Beverages: Alcoholic"}
+{"name":"BTWN","ticker":"BTWN","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Bumble Inc.","ticker":"BMBL","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Bunge","ticker":"BG","sector":"Process Industries","industry":"Agricultural Commodities\/Milling"}
+{"name":"Burgundy Technology Acquisition Corp","ticker":"BTAQ","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"C3.ai Inc","ticker":"AI","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Cable One","ticker":"CABO","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Cabot Oil & Gas Corporation","ticker":"COG","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Cadence Design Systems","ticker":"CDNS","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Caesars Entertainment Inc.","ticker":"CZR","sector":"Consumer Services","industry":"Casinos\/Gaming"}
+{"name":"Canadian Solar","ticker":"CSIQ","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Cano Health","ticker":"CANO","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Canon","ticker":"CAJ","sector":"Electronic Technology","industry":"Electronic Equipment\/Instruments"}
+{"name":"Canoo","ticker":"GOEV","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Canopy Growth Corporation","ticker":"CGC","sector":"Process Industries","industry":"Agricultural Commodities\/Milling"}
+{"name":"Capital One","ticker":"COF","sector":"Finance","industry":"Major Banks"}
+{"name":"Cardinal Health","ticker":"CAH","sector":"Distribution Services","industry":"Medical Distributors"}
+{"name":"Carlyle Group","ticker":"CG","sector":"Finance","industry":"Investment Managers"}
+{"name":"Carnival","ticker":"CCL","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"Carrier Global Corp","ticker":"CARR","sector":"Producer Manufacturing","industry":"Industrial Machinery"}
+{"name":"Cars.com","ticker":"CARS","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Carvana Co.","ticker":"CVNA","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Caterpillar","ticker":"CAT","sector":"Producer Manufacturing","industry":"Trucks\/Construction\/Farm Machinery"}
+{"name":"CBOE Holdings","ticker":"CBOE","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"CBRE Group","ticker":"CBRE","sector":"Finance","industry":"Real Estate Development"}
+{"name":"CC Neuberger Principal Holdings II","ticker":"PRPB","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"CEMEX, S.A.B. de C.V.","ticker":"CX","sector":"Non-Energy Minerals","industry":"Construction Materials"}
+{"name":"Cenovus Energy Inc","ticker":"CVE","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Centene","ticker":"CNC","sector":"Health Services","industry":"Managed Health Care"}
+{"name":"CenterPoint Energy","ticker":"CNP","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Cerner","ticker":"CERN","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"CF Industries Holdings","ticker":"CF","sector":"Process Industries","industry":"Chemicals: Agricultural"}
+{"name":"ChargePoint Holdings","ticker":"CHPT","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Charles Schwab","ticker":"SCHW","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Charter Communications","ticker":"CHTR","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Check Point Software Technologies","ticker":"CHKP","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Chegg","ticker":"CHGG","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"Chemical & Mining Co. of Chile","ticker":"SQM","sector":"Process Industries","industry":"Chemicals: Agricultural"}
+{"name":"Chemours Company, The","ticker":"CC","sector":"Process Industries","industry":"Industrial Specialties"}
+{"name":"Cheniere Energy","ticker":"LNG","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Chesapeake Energy","ticker":"CHKAQ","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Chevron","ticker":"CVX","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Chewy","ticker":"CHWY","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Chico\u2019s FAS","ticker":"CHS","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Chimera Investment","ticker":"CIM","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"China Mobile","ticker":"CHL","sector":"Communications","industry":"Telecommunications Equipment"}
+{"name":"China Southern Airlines","ticker":"ZNH","sector":"Transportation","industry":"Airlines"}
+{"name":"Chipotle Mexican Grill","ticker":"CMG","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Churchill Capital Corp IV","ticker":"CCIV","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Ciena Corporation","ticker":"CIEN","sector":"Electronic Technology","industry":"Telecommunications Equipment"}
+{"name":"Cigna","ticker":"CI","sector":"Health Services","industry":"Managed Health Care"}
+{"name":"Cimarex Energy","ticker":"XEC","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Cintas","ticker":"CTAS","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Cisco","ticker":"CSCO","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Citigroup","ticker":"C","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Citizens Financial Group","ticker":"CFG","sector":"Finance","industry":"Regional Banks"}
+{"name":"Citrix Systems","ticker":"CTXS","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Clean Energy Fuels","ticker":"CLNE","sector":"Utilities","industry":"Gas Distributors"}
+{"name":"Clearway Energy","ticker":"CWEN","sector":"Utilities","industry":"Alternative Power Generation"}
+{"name":"Cleveland-Cliffs Inc.","ticker":"CLF","sector":"Non-Energy Minerals","industry":"Steel"}
+{"name":"Cloudera","ticker":"CLDR","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Cloudflare","ticker":"NET","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Clovis Oncology","ticker":"CLVS","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"CM Life Sciences Inc","ticker":"CMLF","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"CME Group (Class A)","ticker":"CME","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"CNX Resources","ticker":"CNX","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Coca-Cola","ticker":"KO","sector":"Consumer Non-Durables","industry":"Beverages: Non-Alcoholic"}
+{"name":"Coeur Mining","ticker":"CDE","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Cognex Corporation","ticker":"CGNX","sector":"Electronic Technology","industry":"Electronic Equipment\/Instruments"}
+{"name":"Cognizant Technology Solutions","ticker":"CTSH","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Cohn Robbins Holdings Corp","ticker":"CRHC","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Coinbase","ticker":"COIN","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Colgate-Palmolive","ticker":"CL","sector":"Consumer Non-Durables","industry":"Household\/Personal Care"}
+{"name":"Comcast","ticker":"CMCSA","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Comerica","ticker":"CMA","sector":"Finance","industry":"Major Banks"}
+{"name":"CommScope Holding Company","ticker":"COMM","sector":"Electronic Technology","industry":"Telecommunications Equipment"}
+{"name":"Community Health Systems","ticker":"CYH","sector":"Health Services","industry":"Hospital\/Nursing Management"}
+{"name":"Companhia de Saneamento Basico","ticker":"SBS","sector":"Utilities","industry":"Water Utilities"}
+{"name":"Companhia Energ\u00e9tica de Minas Gerais","ticker":"CIG","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Companhia Siderurgica Nacional","ticker":"SID","sector":"Non-Energy Minerals","industry":"Steel"}
+{"name":"Compa\u00f1\u00eda de Minas Buenaventura","ticker":"BVN","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Compass","ticker":"COMP","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"ConAgra Foods","ticker":"CAG","sector":"Consumer Non-Durables","industry":"Food: Major Diversified"}
+{"name":"Conduent","ticker":"CNDT","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"ConocoPhillips","ticker":"COP","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Consolidated Edison","ticker":"ED","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Constellation Brands","ticker":"STZ","sector":"Consumer Non-Durables","industry":"Beverages: Alcoholic"}
+{"name":"Continental Resources","ticker":"CLR","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Conx Corp","ticker":"CONX","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Corning","ticker":"GLW","sector":"Electronic Technology","industry":"Electronic Components"}
+{"name":"Corteva","ticker":"CTVA","sector":"Process Industries","industry":"Chemicals: Agricultural"}
+{"name":"CoStar Group","ticker":"CSGP","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Costco Wholesale","ticker":"COST","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Coty","ticker":"COTY","sector":"Consumer Non-Durables","industry":"Household\/Personal Care"}
+{"name":"Coupang","ticker":"CPNG","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Coursera","ticker":"COUR","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Covanta Holding Corp","ticker":"CVA","sector":"Industrial Services","industry":"Environmental Services"}
+{"name":"Credicorp","ticker":"BAP","sector":"Finance","industry":"Regional Banks"}
+{"name":"CRISPR Therapeutics AG","ticker":"CRSP","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Crocs","ticker":"CROX","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"CrowdStrike","ticker":"CRWD","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Crown Castle","ticker":"CCI","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"CSX","ticker":"CSX","sector":"Transportation","industry":"Railroads"}
+{"name":"CVS Health","ticker":"CVS","sector":"Retail Trade","industry":"Drugstore Chains"}
+{"name":"Dana Holding","ticker":"DAN","sector":"Producer Manufacturing","industry":"Auto Parts: OEM"}
+{"name":"Danaher","ticker":"DHR","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Daqo New Energy Corp","ticker":"DQ","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"Darden Restaurants","ticker":"DRI","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Darling Ingredients","ticker":"DAR","sector":"Process Industries","industry":"Agricultural Commodities\/Milling"}
+{"name":"Datadog","ticker":"DDOG","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Datto Holding Corp","ticker":"MSP","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"DaVita HealthCare Partners","ticker":"DVA","sector":"Health Services","industry":"Medical\/Nursing Services"}
+{"name":"Decarbonization Plus Acquisition Corp","ticker":"DCRB","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Dell Technologies","ticker":"DELL","sector":"Electronic Technology","industry":"Computer Processing Hardware"}
+{"name":"Delta Air Lines","ticker":"DAL","sector":"Transportation","industry":"Airlines"}
+{"name":"Deutsche Bank AG","ticker":"DB","sector":"Finance","industry":"Major Banks"}
+{"name":"Devon Energy","ticker":"DVN","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"DexCom Inc","ticker":"DXCM","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Diageo","ticker":"DEO","sector":"Consumer Non-Durables","industry":"Beverages: Alcoholic"}
+{"name":"Diamondback Energy Inc","ticker":"FANG","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"DiDi Global Inc.","ticker":"DIDI","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Digital Realty Trust","ticker":"DLR","sector":"FInance","industry":"Real Estate Investment Trusts"}
+{"name":"Digital Turbine","ticker":"APPS","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Dine Brands Global Inc","ticker":"DIN","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Discover Financial Services","ticker":"DFS","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Discovery Communications","ticker":"DISCA","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Discovery Communications","ticker":"DISCK","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"DISH Network","ticker":"DISH","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Diversified Healthcare Trust","ticker":"DHC","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"DocuSign","ticker":"DOCU","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Dollar General","ticker":"DG","sector":"Retail Trade","industry":"Discount Stores"}
+{"name":"Dollar Tree","ticker":"DLTR","sector":"Retail Trade","industry":"Discount Stores"}
+{"name":"Dominion Energy","ticker":"D","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Domino\u2019s Pizza","ticker":"DPZ","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"DoorDash Inc","ticker":"DASH","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"DPCM Capital Inc.","ticker":"XPOA","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"DR Horton","ticker":"DHI","sector":"Consumer Durables","industry":"Homebuilding"}
+{"name":"DraftKings Inc","ticker":"DKNG","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Dragoneer Growth Opportunities Corp.","ticker":"DGNR","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Dropbox","ticker":"DBX","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"DT Midstream Inc.","ticker":"DTM","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"DTE Energy Co","ticker":"DTE","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Duke Energy","ticker":"DUK","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Duke Realty","ticker":"DRE","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"DuPont","ticker":"DD","sector":"Process Industries","industry":"Chemicals: Major Diversified"}
+{"name":"DXC Technology","ticker":"DXC","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"E.Merge Technology Acquisition Corp","ticker":"ETAC","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"eBay","ticker":"EBAY","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Ecolab","ticker":"ECL","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"Edison International","ticker":"EIX","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Edwards Lifesciences","ticker":"EW","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Elanco Animal Health","ticker":"ELAN","sector":"Process Industries","industry":"Agricultural Commodities\/Milling"}
+{"name":"Eldorado Gold Corporation","ticker":"EGO","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Electronic Arts","ticker":"EA","sector":"Consumer Durables","industry":"Recreational Products"}
+{"name":"Element Solutions","ticker":"ESI","sector":"Process Industries","industry":"Chemicals: Major Diversified"}
+{"name":"Eli Lilly","ticker":"LLY","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Embraer","ticker":"ERJ","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Emerson","ticker":"EMR","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Encana Corporation","ticker":"OVV","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Energy Transfer Equity","ticker":"ET","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Enersis Americas S.A. American","ticker":"ENIA","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"EnLink Midstream LLC","ticker":"ENLC","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Enphase Energy Inc","ticker":"ENPH","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Entergy Corp","ticker":"ETR","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Enterprise Products Partners","ticker":"EPD","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"EOG Resources","ticker":"EOG","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"EPAM Systems","ticker":"EPAM","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"EQT Corporation","ticker":"EQT","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Equifax","ticker":"EFX","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"Equinix","ticker":"EQIX","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Equinor","ticker":"EQNR","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Equitrans Midstream","ticker":"ETRN","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Equity Distribution Acquisition Corp","ticker":"EQD","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Equity Residential","ticker":"EQR","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Estee Lauder","ticker":"EL","sector":"Consumer Non-Durables","industry":"Household\/Personal Care"}
+{"name":"Etsy","ticker":"ETSY","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"Eventbrite","ticker":"EB","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Evercore","ticker":"EVR","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Exact Sciences Corporation","ticker":"EXAS","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Exagen","ticker":"XGN","sector":"Health Services","industry":"Medical\/Nursing Services"}
+{"name":"Exelixis","ticker":"EXEL","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Exelon","ticker":"EXC","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Expedia","ticker":"EXPE","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Exxon Mobil","ticker":"XOM","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"F5 Networks","ticker":"FFIV","sector":"Electronic Technology","industry":"Computer Communications"}
+{"name":"Facebook","ticker":"FB","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"FactSet Research Systems","ticker":"FDS","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"Fastenal Company","ticker":"FAST","sector":"Distribution Services","industry":"Wholesale Distributors"}
+{"name":"Fastly","ticker":"FSLY","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"FedEx","ticker":"FDX","sector":"Transportation","industry":"Air Freight\/Couriers"}
+{"name":"Ferrari","ticker":"RACE","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"FG New America Acquisition Corp","ticker":"FGNA","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Fifth Third Bancorp","ticker":"FITB","sector":"Finance","industry":"Regional Banks"}
+{"name":"FireEye","ticker":"FEYE","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"First Horizon National Corporation","ticker":"FHN","sector":"Finance","industry":"Regional Banks"}
+{"name":"First Majestic Silver Corp","ticker":"AG","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"First Solar","ticker":"FSLR","sector":"Electronic Technology","industry":"Electronic Components"}
+{"name":"FirstEnergy","ticker":"FE","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"FirstMark Horizon Acquisition Corp","ticker":"FMAC","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"FIS","ticker":"FIS","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"Fiserv","ticker":"FISV","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"Five Star Senior Living Inc","ticker":"FVE","sector":"Health Services","industry":"Hospital\/Nursing Management"}
+{"name":"Fiverr","ticker":"FVRR","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"FleetCor Technologies","ticker":"FLT","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"Flextronics International","ticker":"FLEX","sector":"Electronic Technology","industry":"Electronic Components"}
+{"name":"Fluor Corporation","ticker":"FLR","sector":"Industrial Services","industry":"Engineering & Construction"}
+{"name":"Foley Trasimene Acquisition Corp.","ticker":"WPF","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Foot Locker","ticker":"FL","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Ford","ticker":"F","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Fortinet","ticker":"FTNT","sector":"Electronic Technology","industry":"Computer Communications"}
+{"name":"Fortive","ticker":"FTV","sector":"Electronic Technology","industry":"Electronic Equipment\/Instruments"}
+{"name":"Franklin Resources","ticker":"BEN","sector":"Finance","industry":"Investment Managers"}
+{"name":"Freeport","ticker":"FCX","sector":"Non-Energy Minerals","industry":"Other Metals\/Minerals"}
+{"name":"Frequency Therapeutics","ticker":"FREQ","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"FS KKR Capital","ticker":"FSK","sector":"Finance","industry":"Investment Managers"}
+{"name":"FuelCell Energy","ticker":"FCEL","sector":"Electronic Technology","industry":"Electronic Equipment\/Instruments"}
+{"name":"FutureFuel","ticker":"FF","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"GameStop","ticker":"GME","sector":"Retail Trade","industry":"Electronics\/Appliance Stores"}
+{"name":"GAP","ticker":"GPS","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Gartner","ticker":"IT","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"GDS Holdings","ticker":"GDS","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"General Dynamics","ticker":"GD","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"General Electric","ticker":"GE","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"General Mills","ticker":"GIS","sector":"Consumer Non-Durables","industry":"Food: Major Diversified"}
+{"name":"General Motors","ticker":"GM","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Gentex","ticker":"GNTX","sector":"Producer Manufacturing","industry":"Auto Parts: OEM"}
+{"name":"Genworth Financial","ticker":"GNW","sector":"Finance","industry":"Life\/Health Insurance"}
+{"name":"Gerdau S.A.","ticker":"GGB","sector":"Non-Energy Minerals","industry":"Steel"}
+{"name":"Gilead Sciences","ticker":"GILD","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"GlaxoSmithKline plc","ticker":"GSK","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Global Net Lease","ticker":"GNL","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Globus Medical Inc","ticker":"GMED","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"GoDaddy","ticker":"GDDY","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Gol Intelligent Airlines","ticker":"GOL","sector":"Transportation","industry":"Airlines"}
+{"name":"Gold Fields","ticker":"GFI","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Goldman Sachs","ticker":"GS","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Goodyear","ticker":"GT","sector":"Consumer Durables","industry":"Automotive Aftermarket"}
+{"name":"GoPro","ticker":"GPRO","sector":"Consumer Durables","industry":"Electronics\/Appliances"}
+{"name":"Graphic Packaging Holding","ticker":"GPK","sector":"Process Industries","industry":"Containers\/Packaging"}
+{"name":"Green Plains","ticker":"GPRE","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"Grocery Outlet Holding","ticker":"GO","sector":"Retail Trade","industry":"Food Retail"}
+{"name":"Groupon","ticker":"GRPN","sector":"Commercial Services","industry":"Advertising\/Marketing Services"}
+{"name":"Grupo Financiero Galicia","ticker":"GGAL","sector":"Finance","industry":"Regional Banks"}
+{"name":"Grupo Financiero Santander Mexico","ticker":"BSMX","sector":"Finance","industry":"Regional Banks"}
+{"name":"Grupo Supervielle","ticker":"SUPV","sector":"Finance","industry":"Major Banks"}
+{"name":"Grupo Televisa, S.A.B.","ticker":"TV","sector":"Consumer Services","industry":"Broadcasting"}
+{"name":"GS Acquisition Holdings Corp II","ticker":"GSAH","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Guess","ticker":"GES","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"Gulfport Energy","ticker":"GPORQ","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"H&R Block","ticker":"HRB","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Halliburton","ticker":"HAL","sector":"Industrial Services","industry":"Oilfield Services\/Equipment"}
+{"name":"Hanesbrands","ticker":"HBI","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"Harley-Davidson","ticker":"HOG","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Harmony Gold Mining Company Limited","ticker":"HMY","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Hartford Financial Services Group","ticker":"HIG","sector":"Finance","industry":"Multi-Line Insurance"}
+{"name":"Hasbro","ticker":"HAS","sector":"Consumer Durables","industry":"Recreational Products"}
+{"name":"HCA Healthcare","ticker":"HCA","sector":"Health Services","industry":"Hospital\/Nursing Management"}
+{"name":"HDFC Bank.","ticker":"HDB","sector":"Finance","industry":"Regional Banks"}
+{"name":"Health Assurance Acquisition Corp","ticker":"HAAC","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Hecla Mining Co.","ticker":"HL","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Heico","ticker":"HEI","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Henry Schein","ticker":"HSIC","sector":"Distribution Services","industry":"Medical Distributors"}
+{"name":"Herbalife","ticker":"HLF","sector":"Distribution Services","industry":"Medical Distributors"}
+{"name":"Hess Corporation","ticker":"HES","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Hewlett Packard","ticker":"HPE","sector":"Electronic Technology","industry":"Computer Processing Hardware"}
+{"name":"Hilton","ticker":"HLT","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"Hilton Grand Vacations","ticker":"HGV","sector":"Finance","industry":"Real Estate Development"}
+{"name":"Himax Technologies","ticker":"HIMX","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"HollyFrontier","ticker":"HFC","sector":"Energy Minerals","industry":"Oil Refining\/Marketing"}
+{"name":"Hologic","ticker":"HOLX","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Home Depot","ticker":"HD","sector":"Retail Trade","industry":"Home Improvement Chains"}
+{"name":"Honda Motor","ticker":"HMC","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Honeywell","ticker":"HON","sector":"Producer Manufacturing","industry":"Industrial Conglomerates"}
+{"name":"Hormel Foods Corporation","ticker":"HRL","sector":"Consumer Non-Durables","industry":"Food: Meat\/Fish\/Dairy"}
+{"name":"Host Hotels & Resorts","ticker":"HST","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Howmet Aerospace","ticker":"HWM","sector":"Non-Energy Minerals","industry":"Aluminum"}
+{"name":"HP","ticker":"HPQ","sector":"Electronic Technology","industry":"Computer Processing Hardware"}
+{"name":"HSBC","ticker":"HSBC","sector":"Finance","industry":"Major Banks"}
+{"name":"Huazhu Group","ticker":"HTHT","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"HubSpot","ticker":"HUBS","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Humana","ticker":"HUM","sector":"Health Services","industry":"Managed Health Care"}
+{"name":"Huntington Bancshares Incorporated","ticker":"HBAN","sector":"Finance","industry":"Regional Banks"}
+{"name":"Huntsman Corporation","ticker":"HUN","sector":"Process Industries","industry":"Chemicals: Major Diversified"}
+{"name":"Hutchison China","ticker":"HCM","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"HUYA","ticker":"HUYA","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Hyatt Hotels","ticker":"H","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"Iamgold Corp","ticker":"IAG","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"IBM","ticker":"IBM","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"ICICI Bank","ticker":"IBN","sector":"Finance","industry":"Regional Banks"}
+{"name":"IDEXX Laboratories","ticker":"IDXX","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"IGM Biosciences","ticker":"IGMS","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Illinois Tool Works","ticker":"ITW","sector":"Producer Manufacturing","industry":"Industrial Machinery"}
+{"name":"Illumina","ticker":"ILMN","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"ImmunoGen","ticker":"IMGN","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Incyte","ticker":"INCY","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"indie Semiconductor","ticker":"INDI","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Infinera Corporation","ticker":"INFN","sector":"Electronic Technology","industry":"Telecommunications Equipment"}
+{"name":"Infosys","ticker":"INFY","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Innovative Industrial Properties","ticker":"IIPR","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Inovio Pharmaceuticals In","ticker":"INO","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Intel","ticker":"INTC","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Interactive Brokers","ticker":"IBKR","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Intercept Pharmaceuticals","ticker":"ICPT","sector":"Health Technology","industry":"Pharmaceuticals: Other"}
+{"name":"Intercontinental Exchange","ticker":"ICE","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Intercontinental Hotels Group","ticker":"IHG","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"International Game Technology","ticker":"IGT","sector":"Consumer Services","industry":"Casinos\/Gaming"}
+{"name":"International Paper Company","ticker":"IP","sector":"Process Industries","industry":"Containers\/Packaging"}
+{"name":"Interpublic Group of Companies","ticker":"IPG","sector":"Commercial Services","industry":"Advertising\/Marketing Services"}
+{"name":"Intuit","ticker":"INTU","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Intuitive Surgical","ticker":"ISRG","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Invesco","ticker":"IVZ","sector":"Finance","industry":"Investment Managers"}
+{"name":"Invesco Mortgage Capital","ticker":"IVR","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Investors Bancorp","ticker":"ISBC","sector":"Finance","industry":"Savings Banks"}
+{"name":"Invitae Corporation","ticker":"NVTA","sector":"Health Services","industry":"Medical\/Nursing Services"}
+{"name":"Invitation Homes","ticker":"INVH","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"iQIYI","ticker":"IQ","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"iRobot","ticker":"IRBT","sector":"Consumer Durables","industry":"Electronics\/Appliances"}
+{"name":"Iron Mountain","ticker":"IRM","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Ita\u00fa Unibanco","ticker":"ITUB","sector":"Finance","industry":"Major Banks"}
+{"name":"J.B. Hunt","ticker":"JBHT","sector":"Transportation","industry":"Trucking"}
+{"name":"J&J","ticker":"JNJ","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Jack Henry & Associates","ticker":"JKHY","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Janus International Group","ticker":"JBI","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Jazz Pharmaceuticals","ticker":"JAZZ","sector":"Health Technology","industry":"Pharmaceuticals: Other"}
+{"name":"JD.com","ticker":"JD","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Jefferies Financial Group","ticker":"JEF","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"JetBlue Airways","ticker":"JBLU","sector":"Transportation","industry":"Airlines"}
+{"name":"JFrog Ltd","ticker":"FROG","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Jinkosolar Holding","ticker":"JKS","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"John Deere","ticker":"DE","sector":"Producer Manufacturing","industry":"Trucks\/Construction\/Farm Machinery"}
+{"name":"JPMorgan","ticker":"JPM","sector":"Finance","industry":"Major Banks"}
+{"name":"Jumia","ticker":"JMIA","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Juniper Networks","ticker":"JNPR","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Just Eat Takeaway","ticker":"GRUB","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"KAR Auction Services","ticker":"KAR","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"Katapult Holdings","ticker":"KPLT","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Kellogg\u2019s","ticker":"K","sector":"Consumer Non-Durables","industry":"Food: Major Diversified"}
+{"name":"Keurig Dr Pepper","ticker":"KDP","sector":"Consumer Non-Durables","industry":"Beverages: Non-Alcoholic"}
+{"name":"KeyCorp.","ticker":"KEY","sector":"Finance","industry":"Major Banks"}
+{"name":"Keysight Technologies","ticker":"KEYS","sector":"Electronic Technology","industry":"Electronic Equipment\/Instruments"}
+{"name":"Kimberly-Clark","ticker":"KMB","sector":"Consumer Non-Durables","industry":"Household\/Personal Care"}
+{"name":"Kimco Realty Corporation","ticker":"KIM","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Kinder Morgan","ticker":"KMI","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Kinross Gold Corporation","ticker":"KGC","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"KKR & Co","ticker":"KKR","sector":"Finance","industry":"Investment Managers"}
+{"name":"Knight-Swift Transportation Holdings","ticker":"KNX","sector":"Transportation","industry":"Trucking"}
+{"name":"Kohl\u2019s","ticker":"KSS","sector":"Retail Trade","industry":"Department Stores"}
+{"name":"Kraft Heinz","ticker":"KHC","sector":"Consumer Non-Durables","industry":"Food: Major Diversified"}
+{"name":"Kratos","ticker":"KTOS","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Kroger Co","ticker":"KR","sector":"Retail Trade","industry":"Food Retail"}
+{"name":"KT","ticker":"KT","sector":"Communications","industry":"Major Telecommunications"}
+{"name":"L Brands","ticker":"LB","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Lam Research","ticker":"LRCX","sector":"Electronic Technology","industry":"Electronic Production Equipment"}
+{"name":"Las Vegas Sands","ticker":"LVS","sector":"Consumer Services","industry":"Casinos\/Gaming"}
+{"name":"Lattice Semiconductor Corp","ticker":"LSCC","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Leidos Holdings","ticker":"LDOS","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Lemonade","ticker":"LMND","sector":"Finance","industry":"Property\/Casualty Insurance"}
+{"name":"Lennar","ticker":"LEN","sector":"Consumer Durables","industry":"Homebuilding"}
+{"name":"Leslies Inc","ticker":"LESL","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Levi Strauss & Co","ticker":"LEVI","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"Lexicon Pharmaceuticals","ticker":"LXRX","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"LexinFintech Holdings","ticker":"LX","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"LG Display","ticker":"LPL","sector":"Electronic Technology","industry":"Electronic Production Equipment"}
+{"name":"Li Auto Inc.","ticker":"LI","sector":"Producer Manufacturing","industry":"Auto Parts: OEM"}
+{"name":"Liberty Media Group","ticker":"FWONK","sector":"Consumer Services","industry":"Movies\/Entertainment"}
+{"name":"Live Nation Entertainment","ticker":"LYV","sector":"Consumer Services","industry":"Movies\/Entertainment"}
+{"name":"Livent","ticker":"LTHM","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"LKQ","ticker":"LKQ","sector":"Consumer Durables","industry":"Automotive Aftermarket"}
+{"name":"Lockheed Martin","ticker":"LMT","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Logitech International SA","ticker":"LOGI","sector":"Electronic Technology","industry":"Computer Peripherals"}
+{"name":"Loma Negra Compania Industrial Argentina SA","ticker":"LOMA","sector":"Non-Energy Minerals","industry":"Construction Materials"}
+{"name":"Lowe\u2019s","ticker":"LOW","sector":"Retail Trade","industry":"Home Improvement Chains"}
+{"name":"LTC Properties","ticker":"LTC","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Lululemon","ticker":"LULU","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Lumen Technologies","ticker":"LUMN","sector":"Communications","industry":"Specialty Telecommunications"}
+{"name":"Lyft","ticker":"LYFT","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Macy\u2019s","ticker":"M","sector":"Retail Trade","industry":"Department Stores"}
+{"name":"Madison Square Garden Sports Corp","ticker":"MSGS","sector":"Consumer Services","industry":"Movies\/Entertainment"}
+{"name":"Marathon Oil Corporation","ticker":"MRO","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Marathon Petroleum","ticker":"MPC","sector":"Energy Minerals","industry":"Oil Refining\/Marketing"}
+{"name":"Markel Corp.","ticker":"MKL","sector":"Finance","industry":"Specialty Insurance"}
+{"name":"Marqeta","ticker":"MQ","sector":"Finance","industry":"Regional Banks"}
+{"name":"Marriott","ticker":"MAR","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"Marsh & McLennan","ticker":"MMC","sector":"Finance","industry":"Insurance Brokers\/Services"}
+{"name":"Marvell Technology","ticker":"MRVL","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Masco Corporation","ticker":"MAS","sector":"Producer Manufacturing","industry":"Building Products"}
+{"name":"Mastercard","ticker":"MA","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Matador Resources","ticker":"MTDR","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Match Group","ticker":"MTCH","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Mattel","ticker":"MAT","sector":"Consumer Durables","industry":"Recreational Products"}
+{"name":"Maxeon Solar Technologies","ticker":"MAXN","sector":"Utilities","industry":"Alternative Power Generation"}
+{"name":"Maxim Integrated","ticker":"MXIM","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"McAfee Corp","ticker":"MCFE","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"McDonald\u2019s","ticker":"MCD","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"McEwen Mining Inc","ticker":"MUX","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Medical Properties Trust","ticker":"MPW","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Medtronic","ticker":"MDT","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Melco Crown Entertainment Limited","ticker":"MLCO","sector":"Consumer Services","industry":"Casinos\/Gaming"}
+{"name":"MercadoLibre","ticker":"MELI","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Merck","ticker":"MRK","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Metlife","ticker":"MET","sector":"Finance","industry":"Life\/Health Insurance"}
+{"name":"Mettler-Toledo International","ticker":"MTD","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"MFA Financial","ticker":"MFA","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"MGIC Investment","ticker":"MTG","sector":"FInance","industry":"Specialty Insurance"}
+{"name":"MGM Resorts","ticker":"MGM","sector":"Consumer Services","industry":"Casinos\/Gaming"}
+{"name":"Microchip Technology","ticker":"MCHP","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Micron Technology","ticker":"MU","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Microsoft","ticker":"MSFT","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Mizuho Financial Group","ticker":"MFG","sector":"Finance","industry":"Major Banks"}
+{"name":"Mobile TeleSystems PJSC","ticker":"MBT","sector":"Communications","industry":"Wireless Telecommunications"}
+{"name":"Moderna","ticker":"MRNA","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Momo","ticker":"MOMO","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Mondelez","ticker":"MDLZ","sector":"Consumer Non-Durables","industry":"Food: Major Diversified"}
+{"name":"MoneyGram","ticker":"MGI","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"MongoDB","ticker":"MDB","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Monster","ticker":"MNST","sector":"Consumer Non-Durables","industry":"Beverages: Non-Alcoholic"}
+{"name":"Moody\u2019s","ticker":"MCO","sector":"Commercial Services","industry":"Financial Publishing\/Services"}
+{"name":"Morgan Stanley","ticker":"MS","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Morningstar","ticker":"MORN","sector":"Finance","industry":"Investment Managers"}
+{"name":"Mosaic Company, The","ticker":"MOS","sector":"Process Industries","industry":"Chemicals: Agricultural"}
+{"name":"Motorola Solutions","ticker":"MSI","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"MPLX LP","ticker":"MPLX","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"MUFJ Financial Group","ticker":"MUFG","sector":"Finance","industry":"Major Banks"}
+{"name":"Murphy Oil Corporation","ticker":"MUR","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Nasdaq OMX Group","ticker":"NDAQ","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"National Oilwell Varco","ticker":"NOV","sector":"Industrial Services","industry":"Oilfield Services\/Equipment"}
+{"name":"Natura Holding S.A.","ticker":"NTCO","sector":"Consumer Non-Durables","industry":"Household\/Personal Care"}
+{"name":"Navient Corporation","ticker":"NAVI","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Nektar Therapeutics","ticker":"NKTR","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"NeoPhotonics","ticker":"NPTN","sector":"Electronic Technology","industry":"Electronic Components"}
+{"name":"NetApp","ticker":"NTAP","sector":"Electronic Technology","industry":"Computer Peripherals"}
+{"name":"NetEase","ticker":"NTES","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Netflix","ticker":"NFLX","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Neurocrine Biosciences","ticker":"NBIX","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"New Age Beverage","ticker":"NBEV","sector":"Consumer Non-Durables","industry":"Beverages: Alcoholic"}
+{"name":"New Oriental Education & Tech Group","ticker":"EDU","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"New Residential Investment","ticker":"NRZ","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"New York Community Bancorp","ticker":"NYCB","sector":"Finance","industry":"Savings Banks"}
+{"name":"New York Mortgage Trust","ticker":"NYMT","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"New York Times","ticker":"NYT","sector":"Consumer Services","industry":"Publishing: Newspapers"}
+{"name":"Newell Rubbermaid","ticker":"NWL","sector":"Producer Manufacturing","industry":"Industrial Conglomerates"}
+{"name":"Newmont Mining","ticker":"NEM","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"News Corporation","ticker":"NWSA","sector":"Consumer Services","industry":"Publishing: Newspapers"}
+{"name":"NextEra Energy","ticker":"NEE","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"NICE Systems","ticker":"NICE","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Nike","ticker":"NKE","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"Nikola Corporation","ticker":"NKLA","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"NIO","ticker":"NIO","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Noah Holdings Limited","ticker":"NOAH","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Nomura","ticker":"NMR","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"Nordstrom","ticker":"JWN","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Norfolk Southern Corporation","ticker":"NSC","sector":"Transportation","industry":"Railroads"}
+{"name":"Northern Trust Corporation","ticker":"NTRS","sector":"Finance","industry":"Regional Banks"}
+{"name":"Northrop Grumman","ticker":"NOC","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"NortonLifeLock","ticker":"NLOK","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Norwegian Cruise Line Holdings","ticker":"NCLH","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"Novartis AG","ticker":"NVS","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Novavax","ticker":"NVAX","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Novo Nordisk","ticker":"NVO","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"NovoCure","ticker":"NVCR","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"NRG Energy","ticker":"NRG","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Nucor","ticker":"NUE","sector":"Non-Energy Minerals","industry":"Steel"}
+{"name":"Nutanix","ticker":"NTNX","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"NuVasive","ticker":"NUVA","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Nvidia","ticker":"NVDA","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"NVR","ticker":"NVR","sector":"Consumer Durables","industry":"Homebuilding"}
+{"name":"O\u2019Reilly Auto Parts","ticker":"ORLY","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Oatly","ticker":"OTLY","sector":"Consumer Non-Durables","industry":"Food: Major Diversified"}
+{"name":"Occidental","ticker":"OXY","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Office Depot","ticker":"ODP","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Okta","ticker":"OKTA","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Olin","ticker":"OLN","sector":"Process Industries","industry":"Industrial Specialties"}
+{"name":"Omnicom Group","ticker":"OMC","sector":"Commercial Services","industry":"Advertising\/Marketing Services"}
+{"name":"ON Semiconductor","ticker":"ON","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Oneok","ticker":"OKE","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Opko Health","ticker":"OPK","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Oracle","ticker":"ORCL","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Organon & Co.","ticker":"OGN","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Ormat Technologies","ticker":"ORA","sector":"Utilities","industry":"Alternative Power Generation"}
+{"name":"Oscar Health Inc.","ticker":"OSCR","sector":"Health Services","industry":"Hospital\/Nursing Management"}
+{"name":"Otis Worldwide Corp","ticker":"OTIS","sector":"Producer Manufacturing","industry":"Building Products"}
+{"name":"Overstock.com","ticker":"OSTK","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Ozon","ticker":"OZON","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"P&G","ticker":"PG","sector":"Consumer Non-Durables","industry":"Household\/Personal Care"}
+{"name":"Paccar","ticker":"PCAR","sector":"Producer Manufacturing","industry":"Trucks\/Construction\/Farm Machinery"}
+{"name":"Pagerduty","ticker":"PD","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Palantir","ticker":"PLTR","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Palo Alto Networks","ticker":"PANW","sector":"Electronic Technology","industry":"Computer Communications"}
+{"name":"Pampa Energia SA","ticker":"PAM","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Pan American Silver Corp","ticker":"PAAS","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Parker-Hannifin","ticker":"PH","sector":"Producer Manufacturing","industry":"Industrial Machinery"}
+{"name":"Patterson-UTI Energy","ticker":"PTEN","sector":"Industrial Services","industry":"Contract Drilling"}
+{"name":"Paychex","ticker":"PAYX","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"PayPal","ticker":"PYPL","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"PBF Energy","ticker":"PBF","sector":"Energy Minerals","industry":"Oil Refining\/Marketing"}
+{"name":"PDC Energy Inc","ticker":"PDCE","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Peloton Interactive","ticker":"PTON","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Penn National Gaming Inc","ticker":"PENN","sector":"Consumer Services","industry":"Casinos\/Gaming"}
+{"name":"People\u2019s United Financial","ticker":"PBCT","sector":"Finance","industry":"Major Banks"}
+{"name":"PepsiCo","ticker":"PEP","sector":"Consumer Non-Durables","industry":"Beverages: Non-Alcoholic"}
+{"name":"Pershing Square Tontine Holdings","ticker":"PSTH","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Petroleo Brasileiro S.A.","ticker":"PBR","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Pfizer","ticker":"PFE","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"PG&E Corporation","ticker":"PCG","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Philip Morris","ticker":"PM","sector":"Consumer Non-Durables","industry":"Tobacco"}
+{"name":"Phillips 66","ticker":"PSX","sector":"Energy Minerals","industry":"Oil Refining\/Marketing"}
+{"name":"Pinduoduo Inc","ticker":"PDD","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Pinterest","ticker":"PINS","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Pioneer Natural Resources","ticker":"PXD","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Pitney Bowes","ticker":"PBI","sector":"Producer Manufacturing","industry":"Office Equipment\/Supplies"}
+{"name":"Plains All American Pipeline","ticker":"PAA","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Planet Fitness","ticker":"PLNT","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Plug Power","ticker":"PLUG","sector":"Electronic Technology","industry":"Electronic Components"}
+{"name":"PNC Financial","ticker":"PNC","sector":"Finance","industry":"Major Banks"}
+{"name":"PPG Industries","ticker":"PPG","sector":"Process Industries","industry":"Industrial Specialties"}
+{"name":"PPL Corporation","ticker":"PPL","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Prestige Brands","ticker":"PBH","sector":"Health Technology","industry":"Pharmaceuticals: Other"}
+{"name":"Primerica","ticker":"PRI","sector":"Finance","industry":"Life\/Health Insurance"}
+{"name":"Progressive","ticker":"PGR","sector":"Finance","industry":"Property\/Casualty Insurance"}
+{"name":"Prologis","ticker":"PLD","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Proofpoint","ticker":"PFPT","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"Proterra","ticker":"PTRA","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Prudential Financial","ticker":"PRU","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Public Service Enterprise Group","ticker":"PEG","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Public Storage","ticker":"PSA","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"PulteGroup","ticker":"PHM","sector":"Consumer Durables","industry":"Homebuilding"}
+{"name":"Pure Storage","ticker":"PSTG","sector":"Electronic Technology","industry":"Computer Peripherals"}
+{"name":"Q2 Holdings","ticker":"QTWO","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Qualcomm","ticker":"QCOM","sector":"Electronic Technology","industry":"Telecommunications Equipment"}
+{"name":"Qualys","ticker":"QLYS","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Quanta Services","ticker":"PWR","sector":"Industrial Services","industry":"Engineering & Construction"}
+{"name":"Qudian","ticker":"QD","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Qurate Retail","ticker":"QRTEA","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Rackspace Technology","ticker":"RXT","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"Ralph Lauren","ticker":"RL","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Range Resources Corporation","ticker":"RRC","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Raytheon Technologies Corporation","ticker":"RTX","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Realogy Holdings","ticker":"RLGY","sector":"Finance","industry":"Real Estate Development"}
+{"name":"RealReal","ticker":"REAL","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Realty Income","ticker":"O","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Redfin Corporation","ticker":"RDFN","sector":"Finance","industry":"Real Estate Development"}
+{"name":"Regeneron Pharmaceuticals","ticker":"REGN","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Regions Financial","ticker":"RF","sector":"Finance","industry":"Major Banks"}
+{"name":"Reinvent Technology Partners","ticker":"RTP","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Renewable Energy Group","ticker":"REGI","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"Republic Services","ticker":"RSG","sector":"Industrial Services","industry":"Environmental Services"}
+{"name":"ResMed","ticker":"RMD","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Restaurant Brands International","ticker":"QSR","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Restoration Hardware Holdings","ticker":"RH","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"RingCentral","ticker":"RNG","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Rio Tinto","ticker":"RIO","sector":"Non-Energy Minerals","industry":"Other Metals\/Minerals"}
+{"name":"Rite Aid","ticker":"RAD","sector":"Retail Trade","industry":"Drugstore Chains"}
+{"name":"Roblox","ticker":"RBLX","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Rocket Companies","ticker":"RKT","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Rockwell Automation","ticker":"ROK","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Roku","ticker":"ROKU","sector":"Consumer Durables","industry":"Electronics\/Appliances"}
+{"name":"Root Inc","ticker":"ROOT","sector":"Finance","industry":"Insurance Brokers\/Services"}
+{"name":"Ross Stores","ticker":"ROST","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Royal Bank of Canada","ticker":"RY","sector":"Finance","industry":"Major Banks"}
+{"name":"Royal Caribbean Cruises","ticker":"RCL","sector":"Consumer Services","industry":"Hotels\/Resorts\/Cruise lines"}
+{"name":"Royal Dutch Shell \u2013 Class A Shares","ticker":"RDS.A","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"RPC","ticker":"RES","sector":"Industrial Services","industry":"Oilfield Services\/Equipment"}
+{"name":"S&P","ticker":"SPGI","sector":"Commercial Services","industry":"Financial Publishing\/Services"}
+{"name":"Salesforce","ticker":"CRM","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Sally Beauty","ticker":"SBH","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Sangamo Therapeutics","ticker":"SGMO","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Sanofi","ticker":"SNY","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Schlumberger","ticker":"SLB","sector":"Industrial Services","industry":"Oilfield Services\/Equipment"}
+{"name":"Sea Limited","ticker":"SE","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Seaboard Corp.","ticker":"SEB","sector":"Consumer Non-Durables","industry":"Food: Meat\/Fish\/Dairy"}
+{"name":"Seagate Technology","ticker":"STX","sector":"Electronic Technology","industry":"Computer Peripherals"}
+{"name":"Sempra Energy","ticker":"SRE","sector":"Utilities","industry":"Gas Distributors"}
+{"name":"ServiceNow","ticker":"NOW","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Shake Shack","ticker":"SHAK","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Sherwin-Williams","ticker":"SHW","sector":"Process Industries","industry":"Industrial Specialties"}
+{"name":"Shopify","ticker":"SHOP","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Sibanye-Stillwater","ticker":"SBSW","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"Simon Property","ticker":"SPG","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Sirius XM","ticker":"SIRI","sector":"Consumer Services","industry":"Broadcasting"}
+{"name":"Skechers","ticker":"SKX","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"Skillsoft Corp","ticker":"SKIL","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Skyworks Solutions","ticker":"SWKS","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Slack","ticker":"WORK","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"SLM Corporation","ticker":"SLM","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"SM Energy Company","ticker":"SM","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Smartsheet","ticker":"SMAR","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Snap","ticker":"SNAP","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Snowflake","ticker":"SNOW","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Social Capital Hedosophia Holdings Corp VI","ticker":"IPOD","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Social Capital Hedosophia Holdings Corp VI","ticker":"IPOF","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"SoFi Technologies","ticker":"SOFI","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Sogou","ticker":"SOGO","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"SolarEdge Technologies","ticker":"SEDG","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Sony","ticker":"SONY","sector":"Consumer Durables","industry":"Electronics\/Appliances"}
+{"name":"Southern Company","ticker":"SO","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Southern Copper","ticker":"SCCO","sector":"Non-Energy Minerals","industry":"Other Metals\/Minerals"}
+{"name":"Southwest Airlines","ticker":"LUV","sector":"Transportation","industry":"Airlines"}
+{"name":"Southwestern Energy","ticker":"SWN","sector":"Energy Minerals","industry":"Oil & Gas Production"}
+{"name":"Spirit Airlines","ticker":"SAVE","sector":"Transportation","industry":"Airlines"}
+{"name":"Splunk","ticker":"SPLK","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Spotify","ticker":"SPOT","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Sprouts Farmers Market","ticker":"SFM","sector":"Retail Trade","industry":"Food Retail"}
+{"name":"Square","ticker":"SQ","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Squarespace","ticker":"SQSP","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"SS&C Technologies Holdings","ticker":"SSNC","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Stable Road Acquisition Corp Class A","ticker":"SRAC","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Stanley Black & Decker","ticker":"SWK","sector":"Consumer Durables","industry":"Tools & Hardware"}
+{"name":"Starboard Value Acquisition Corp","ticker":"SVAC","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Starbucks","ticker":"SBUX","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"State Street","ticker":"STT","sector":"Finance","industry":"Regional Banks"}
+{"name":"Steel Dynamics","ticker":"STLD","sector":"Non-Energy Minerals","industry":"Steel"}
+{"name":"Stellantis","ticker":"STLA","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Stitch Fix","ticker":"SFIX","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"StoneCo","ticker":"STNE","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Stryker","ticker":"SYK","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Sumitomo Mitsui Financial Group","ticker":"SMFG","sector":"Finance","industry":"Major Banks"}
+{"name":"Sumo Logic Inc","ticker":"SUMO","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Suncor Energy","ticker":"SU","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Sunnova Energy International","ticker":"NOVA","sector":"Distribution Services","industry":"Wholesale Distributors"}
+{"name":"SunPower","ticker":"SPWR","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Sunrun","ticker":"RUN","sector":"Utilities","industry":"Alternative Power Generation"}
+{"name":"Sutter Rock Capital","ticker":"SSSS","sector":"Finance","industry":"Investment Managers"}
+{"name":"Synchrony Financial","ticker":"SYF","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Synopsys","ticker":"SNPS","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Sysco","ticker":"SYY","sector":"Distribution Services","industry":"Food Distributors"}
+{"name":"T-Mobile","ticker":"TMUS","sector":"Communications","industry":"Wireless Telecommunications"}
+{"name":"T. Rowe Price","ticker":"TROW","sector":"Finance","industry":"Investment Managers"}
+{"name":"T2 Interactive","ticker":"TTWO","sector":"Consumer Durables","industry":"Recreational Products"}
+{"name":"Taiwan Semiconductor","ticker":"TSM","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Takeda Pharmaceutical","ticker":"TAK","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"Tal Education Group","ticker":"TAL","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Tanger Factory Outlet Centers","ticker":"SKT","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Tapestry","ticker":"TPR","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Targa Resources","ticker":"TRGP","sector":"Energy Minerals","industry":"Oil Refining\/Marketing"}
+{"name":"Target","ticker":"TGT","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Tata Motors","ticker":"TTM","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"TechnipFMC plc","ticker":"FTI","sector":"Industrial Services","industry":"Oilfield Services\/Equipment"}
+{"name":"Teck Resources","ticker":"TECK","sector":"Non-Energy Minerals","industry":"Other Metals\/Minerals"}
+{"name":"Teladoc","ticker":"TDOC","sector":"Health Services","industry":"Hospital\/Nursing Management"}
+{"name":"Teleflex","ticker":"TFX","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Telefonica Brasil","ticker":"VIV","sector":"Communications","industry":"Major Telecommunications"}
+{"name":"Tempur Sealy","ticker":"TPX","sector":"Consumer Durables","industry":"Home Furnishings"}
+{"name":"Tencent Music Entertainment Group","ticker":"TME","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Teradyne","ticker":"TER","sector":"Electronic Technology","industry":"Electronic Production Equipment"}
+{"name":"Tesla","ticker":"TSLA","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Teva Pharmaceutical Industries","ticker":"TEVA","sector":"Health Technology","industry":"Pharmaceuticals: Generic"}
+{"name":"Texas Instruments","ticker":"TXN","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"The AES Corporation","ticker":"AES","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"The Clorox Company","ticker":"CLX","sector":"Consumer Non-Durables","industry":"Household\/Personal Care"}
+{"name":"The Dow Chemical Company","ticker":"DOW","sector":"Process Industries","industry":"Chemicals: Specialty"}
+{"name":"The GEO Group","ticker":"GEO","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"The Original BARK Company","ticker":"BARK","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"The Scotts Miracle-Gro Company","ticker":"SMG","sector":"Process Industries","industry":"Chemicals: Agricultural"}
+{"name":"Thermo Fisher Scientific","ticker":"TMO","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Thoma Bravo Advantage","ticker":"TBA","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"TIM SA","ticker":"TIMB","sector":"Communications","industry":"Wireless Telecommunications"}
+{"name":"TJX Companies Inc","ticker":"TJX","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"Toronto-Dominion Bank","ticker":"TD","sector":"Finance","industry":"Major Banks"}
+{"name":"Toyota","ticker":"TM","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"TPG Pace Beneficial Finance Corp.","ticker":"TPGY","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Tpg Pace Tech Opportunities Corp","ticker":"PACE","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"TPI Composites","ticker":"TPIC","sector":"Producer Manufacturing","industry":"Electrical Products"}
+{"name":"Trade Desk","ticker":"TTD","sector":"Commercial Services","industry":"Advertising\/Marketing Services"}
+{"name":"Tradeweb Markets","ticker":"TW","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"TransEnterix","ticker":"TRXC","sector":"Commercial Services","industry":"Miscellaneous Commercial Services"}
+{"name":"Travelers","ticker":"TRV","sector":"Finance","industry":"Multi-Line Insurance"}
+{"name":"Trip.com","ticker":"TCOM","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"TripAdvisor","ticker":"TRIP","sector":"Consumer Services","industry":"Other Consumer Services"}
+{"name":"Triumph","ticker":"TGI","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Truist Financial Corp","ticker":"TFC","sector":"Finance","industry":"Regional Banks"}
+{"name":"TuSimple","ticker":"TSP","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"TWC Tech Holdings II Corp","ticker":"TWCT","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Twilio","ticker":"TWLO","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Twitter","ticker":"TWTR","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Two Harbors Investment","ticker":"TWO","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Tyson Foods","ticker":"TSN","sector":"Consumer Non-Durables","industry":"Food: Meat\/Fish\/Dairy"}
+{"name":"Uber","ticker":"UBER","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"UBS Group AG","ticker":"UBS","sector":"Finance","industry":"Major Banks"}
+{"name":"UiPath","ticker":"PATH","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Ulta Beauty","ticker":"ULTA","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"Ultra Clean Holdings","ticker":"UCTT","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Ultrapar Participa\u00e7\u00f5es","ticker":"UGP","sector":"Energy Minerals","industry":"Oil Refining\/Marketing"}
+{"name":"Under Armour","ticker":"UAA","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"Under Armour (Class C)","ticker":"UA","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"Union Pacific","ticker":"UNP","sector":"Transportation","industry":"Railroads"}
+{"name":"United Airlines","ticker":"UAL","sector":"Transportation","industry":"Airlines"}
+{"name":"United Microelectronics","ticker":"UMC","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"United States Steel","ticker":"X","sector":"Non-Energy Minerals","industry":"Steel"}
+{"name":"UnitedHealth","ticker":"UNH","sector":"Health Services","industry":"Managed Health Care"}
+{"name":"Uniti Group","ticker":"UNIT","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Unity Software","ticker":"U","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Unum Group","ticker":"UNM","sector":"Finance","industry":"Life\/Health Insurance"}
+{"name":"UP Fintech","ticker":"TIGR","sector":"Finance","industry":"Investment Banks\/Brokers"}
+{"name":"UPS","ticker":"UPS","sector":"Transportation","industry":"Air Freight\/Couriers"}
+{"name":"Urban Outfitters","ticker":"URBN","sector":"Retail Trade","industry":"Apparel\/Footwear Retail"}
+{"name":"US Bancorp","ticker":"USB","sector":"Finance","industry":"Major Banks"}
+{"name":"US Silica Holdings","ticker":"SLCA","sector":"Non-Energy Minerals","industry":"Other Metals\/Minerals"}
+{"name":"Vale","ticker":"VALE","sector":"Non-Energy Minerals","industry":"Steel"}
+{"name":"Valero","ticker":"VLO","sector":"Energy Minerals","industry":"Oil Refining\/Marketing"}
+{"name":"Vector Acquisition Corp.","ticker":"VACQ","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Vector Group","ticker":"VGR","sector":"Consumer Non-Durables","industry":"Tobacco"}
+{"name":"Veeva Systems","ticker":"VEEV","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Ventas","ticker":"VTR","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Vereit","ticker":"VER","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Verisign","ticker":"VRSN","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Verisk Analytics","ticker":"VRSK","sector":"Finance","industry":"Insurance Brokers\/Services"}
+{"name":"Verizon","ticker":"VZ","sector":"Communications","industry":"Major Telecommunications"}
+{"name":"Vertex Pharmaceuticals","ticker":"VRTX","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"VF Corporation","ticker":"VFC","sector":"Consumer Non-Durables","industry":"Apparel\/Footwear"}
+{"name":"ViacomCBS","ticker":"VIACA","sector":"Consumer Services","industry":"Broadcasting"}
+{"name":"Viatris","ticker":"VTRS","sector":"Health Technology","industry":"Pharmaceuticals: Major"}
+{"name":"VICI Properties","ticker":"VICI","sector":"Finance","industry":"Real Estate Development"}
+{"name":"Vipshop Holdings Limited","ticker":"VIPS","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Vir Biotechnology Inc","ticker":"VIR","sector":"Health Technology","industry":"Biotechnology"}
+{"name":"Virgin Galactic","ticker":"SPCE","sector":"Electronic Technology","industry":"Aerospace & Defense"}
+{"name":"Visa","ticker":"V","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"Vistra Energy","ticker":"VST","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"VMware","ticker":"VMW","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Vonage Holdings","ticker":"VG","sector":"Communications","industry":"Specialty Telecommunications"}
+{"name":"VPC Impact Acquisition Holdings","ticker":"VIH","sector":"Finance","industry":"Financial Conglomerates"}
+{"name":"Vroom Inc","ticker":"VRM","sector":"Retail Trade","industry":"Specialty Stores"}
+{"name":"WABTEC Corporation","ticker":"WAB","sector":"Producer Manufacturing","industry":"Trucks\/Construction\/Farm Machinery"}
+{"name":"Walgreens Boots","ticker":"WBA","sector":"Retail Trade","industry":"Drugstore Chains"}
+{"name":"Walmart","ticker":"WMT","sector":"Retail Trade","industry":"Food Retail"}
+{"name":"Walt Disney","ticker":"DIS","sector":"Consumer Services","industry":"Cable\/Satellite TV"}
+{"name":"Waste Connections","ticker":"WCN","sector":"Industrial Services","industry":"Environmental Services"}
+{"name":"Waste Management","ticker":"WM","sector":"Industrial Services","industry":"Environmental Services"}
+{"name":"Wayfair","ticker":"W","sector":"Retail Trade","industry":"Internet Retail"}
+{"name":"Weibo","ticker":"WB","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Wells Fargo","ticker":"WFC","sector":"Finance","industry":"Major Banks"}
+{"name":"Welltower","ticker":"WELL","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"Wendy\u2019s Company","ticker":"WEN","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Western Digital","ticker":"WDC","sector":"Electronic Technology","industry":"Computer Peripherals"}
+{"name":"Western Union","ticker":"WU","sector":"Finance","industry":"Finance\/Rental\/Leasing"}
+{"name":"WestRock","ticker":"WRK","sector":"Process Industries","industry":"Containers\/Packaging"}
+{"name":"WEX","ticker":"WEX","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"Weyerhaeuser Co.","ticker":"WY","sector":"Finance","industry":"Real Estate Investment Trusts"}
+{"name":"White Mountains Insurance Group","ticker":"WTM","sector":"Finance","industry":"Multi-Line Insurance"}
+{"name":"Williams Companies","ticker":"WMB","sector":"Industrial Services","industry":"Oil & Gas Pipelines"}
+{"name":"Wingstop","ticker":"WING","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Wipro","ticker":"WIT","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Wix.com Ltd","ticker":"WIX","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Workday","ticker":"WDAY","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Workhorse Group Inc","ticker":"WKHS","sector":"Producer Manufacturing","industry":"Auto Parts: OEM"}
+{"name":"World Wrestling Entertainment","ticker":"WWE","sector":"Consumer Services","industry":"Movies\/Entertainment"}
+{"name":"Wynn Resorts","ticker":"WYNN","sector":"Consumer Services","industry":"Casinos\/Gaming"}
+{"name":"Xcel Energy","ticker":"XEL","sector":"Utilities","industry":"Electric Utilities"}
+{"name":"Xerox","ticker":"XRX","sector":"Electronic Technology","industry":"Computer Peripherals"}
+{"name":"Xilinx","ticker":"XLNX","sector":"Electronic Technology","industry":"Semiconductors"}
+{"name":"Xpeng","ticker":"XPEV","sector":"Consumer Durables","industry":"Motor Vehicles"}
+{"name":"Yamana Gold","ticker":"AUY","sector":"Non-Energy Minerals","industry":"Precious Metals"}
+{"name":"YETI Holdings Inc","ticker":"YETI","sector":"Producer Manufacturing","industry":"Miscellaneous Manufacturing"}
+{"name":"YPF","ticker":"YPF","sector":"Energy Minerals","industry":"Integrated Oil"}
+{"name":"Yum!","ticker":"YUM","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"Yum!","ticker":"YUMC","sector":"Consumer Services","industry":"Restaurants"}
+{"name":"YY","ticker":"YY","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Zebra Technologies","ticker":"ZBRA","sector":"Electronic Technology","industry":"Computer Peripherals"}
+{"name":"Zendesk","ticker":"ZEN","sector":"Technology Services","industry":"Data Processing Services"}
+{"name":"Zillow Group","ticker":"Z","sector":"Technology Services","industry":"Information Technology Services"}
+{"name":"Zimmer Biomet","ticker":"ZBH","sector":"Health Technology","industry":"Medical Specialties"}
+{"name":"Zions Bancorporation","ticker":"ZION","sector":"Finance","industry":"Regional Banks"}
+{"name":"ZipRecruiter","ticker":"ZIP","sector":"Technology Services","industry":"Internet Software\/Services"}
+{"name":"Zoetis","ticker":"ZTS","sector":"Health Technology","industry":"Pharmaceuticals: Generic"}
+{"name":"Zoom","ticker":"ZM","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"Zscaler","ticker":"ZS","sector":"Technology Services","industry":"Packaged Software"}
+{"name":"ZTO Express","ticker":"ZTO","sector":"Transportation","industry":"Air Freight\/Couriers"}
+{"name":"Zynga","ticker":"ZNGA","sector":"Technology Services","industry":"Internet Software\/Services"}
