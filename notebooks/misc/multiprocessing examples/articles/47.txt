@@ -1,0 +1,27 @@
+Microsoft (MSFT) Set to Release Windows 11
+
+Microsoft Corporation (MSFT) is set to release the latest version of its best-selling operating system Windows 11 on Oct. 5, the company announced in a blog post.1 Dubbed "the first version of a new era of Windows," the operating system is a long-awaited successor to Windows 10, which was released back in 2015.2
+
+KEY TAKEAWAYS
+Microsoft is set to release Windows 11, the latest version of its best-selling operating system, on Oct. 5.
+Windows 11 features several upgrades for productivity in a hybrid work environment, a new Microsoft store, and is the "best Windows ever for gaming."
+Analysts estimate that Windows 11 will contribute 19% of Microsoft's overall profit margins for this year,
+
+Windows 11 features several updates aimed at many customer segments. For example, it has an updated Start menu and a sleek design of rounded corners and sharper colors that some say is similar to Apple Inc.'s (AAPL) Mac OS.3
+
+The operating system is also equipped with a new Microsoft store for apps and games that allows access to Android apps. The company is also going head-to-head with competitor Apple by making the store more developer-friendly. Microsoft plans to take a 15% cut, as opposed to Apple's standard 30% share, from developers for apps on its platform. With integrated gaming subscription services and graphics features that make games more lifelike, Windows 11 is also being touted as the the "best Windows ever for gaming."
+
+In a nod to the changed post-pandemic workspace, Windows 11 provides easy access to Microsoft Teams, the company's virtual meeting software, and incorporates features like expanded gesture, voice, and pen interactivity to make it easier to participate in office conferences and school instruction.
+
+On Oct. 5, Windows 10 PCs will be upgraded to Windows 11. Devices with the new operating system will also become available for purchase on that date. The new operating system will work on machines equipped with processors dating back all the way to 2016 Intel chips.
+
+Windows and Microsoft's Balance Sheet 
+Less than a decade ago, commercial licensing for Windows was Microsoft's cash cow.4 While its dominance on Microsoft's balance sheet has receded in recent times, the unit still accounted for $6.6 billion in revenue, approximately 14% of the total number, in the most recent quarter.
+
+Meanwhile, its cloud products and services division has become integral to its future as a technology company. Recently, Wedbush analyst Dan Ives chose Microsoft as his pick for the company most likely to win the "cloud arms race." Ives wrote, "Microsoft remains our favorite large cap cloud play, and we believe the stock will move higher into year-end as the Street further appreciates the cloud transformation story,"5
+
+Microsoft has already released a cloud version of the Windows operating system—Windows 365—for users. The company claimed to have invented a new product category, one that it calls "Cloud PC," that enables users to work from anywhere using custom-built cloud configuration and an operating system available in a browser.
+
+But the standard version of Windows still provides several benefits to Microsoft. For starters, it dominates the PC market. Gartner estimated that 83% of PCs were running on the operating system last year.6
+
+Windows also carries hefty margins. In June, when Microsoft provided a demo of Windows 11, UBS analyst Karl Keirstead estimated that the operating system carries a 90% to 95% margin for the company. He stated that Windows will account for 14% of the total revenue for Microsoft this year. Thanks to its high profit margins, however, the operating system will contribute approximately 19% to the company's profits. According to Keirstead, Windows "is central to Microsoft's franchise with enterprises and consumers."7

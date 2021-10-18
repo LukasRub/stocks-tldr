@@ -1,0 +1,80 @@
+Taiwan Semiconductor Is A Chip Manufacturing Giant That Should Be On Investors' Radar
+
+Summary
+Taiwan Semiconductor is the world's biggest chip foundry, manufacturing semiconductors that are used in a wide range of devices.
+The company currently has a technological advantage, but there is a risk that competitors like Samsung and Intel could catch up.
+Shares are no longer cheap, with the market apparently re-rating the company from a cyclical company to a growth company.
+Silicon wafer negative color in machine in semiconductor manufacturing
+MACRO PHOTO/iStock via Getty Images
+Taiwan Semiconductor (TSM) is the world's biggest chip foundry, manufacturing semiconductors that are used in a wide range of devices. As its name implies, the company is based out of Taiwan, and it is a significant component of many emerging market ETFs such as the iShares Core MSCI Emerging Markets ETF (IEMG) and the iShares MSCI Emerging Markets ETF (EEM).
+
+Looking at the past few years both the share price and revenues have increased significantly.
+
+TSM stock chart
+Data by YCharts
+This has led to a re-rating of the company: before, it seemed to be valued as a cyclical company with a low P/E ratio, and now it looks to be valued as a growth company with a high P/E ratio implying significant growth ahead.
+
+TSM stock PE ratio
+Data by YCharts
+While we are not sure the cyclicality of the semiconductor industry is gone, we do believe that Taiwan Semiconductor is winning ground versus competitors. The growing competitive advantages of the company are reflected in a significantly higher operating margin compared to Samsung (OTC:SSNLF) and Intel (NASDAQ:INTC). These advantages are in part technological and in part manufacturing prowess. We won't get into the details of the manufacturing advantages of each of these companies, several articles such as this one making the point that Intel is set to regain the technological lead, while this other one argues that TSM is set to continue leading the pack. What we believe is clear is that at least for the time being TSM has a clear advantage when compared to its main competitors, and that is reflected in its much higher operating margins.
+
+Chart
+Data by YCharts
+Currently about half of the revenue of the company is from leading nodes, such as 5nm and 7nm with the other half being older nodes where equipment has already been significantly depreciated.
+
+Source: Taiwan Semiconductor Investor Relations
+
+Looking at the revenue by platform, most of it comes from sales of smartphone chips with a 42% contribution, and High Performance Computing with 39%. Internet of Things (IoT), Automotive, DCE, and others make up less than 10% each.
+
+
+Source: Taiwan Semiconductor Investor Relations
+
+What is clear is that TSM is a high-quality business, which has been earning high returns on equity as well as on invested capital. One important difference with many other high ROIC franchises is that TSM has a lot of opportunities to reinvest in the business given the fact the semiconductor manufacturing requires enormous capital expenditures.
+
+Chart
+Data by YCharts
+Valuation
+Our estimated fair value for the shares is based on analyst estimates for the next three years compiled by Seeking Alpha, and for the rest of the decade we use analyst's long-term growth estimates. We assume a GDP-like growth estimate for the terminal value growth, and discount the cash flows at 10% which is the minimum return we would be looking for from an investment such as this one.
+
+The resulting fair value estimate is $140, which is a bit higher than where shares are currently trading hinting at some undervaluation. However it is important to emphasize that this assumes growth for the next ten years, which would mean the semiconductor industry is no longer as cyclical as it was in the past.
+
+
+
+Source: Seeking Alpha
+
+Chart
+Data by YCharts
+Fiscal Period Ending	EPS Estimate	# Analysts
+Dec 2021	$3.98	7
+Dec 2022	$4.72	7
+Dec 2023	$5.64	3
+Dec 2024	$6.54	0
+Dec 2025	$7.59	0
+Dec 2026	$8.80	0
+Dec 2027	$10.21	0
+Dec 2028	$11.85	0
+Dec 2029	$13.74	0
+Dec 2030	$15.94	0
+Terminal value	$227.71	3% growth per year
+DCF value per share	$140.49	10% discount rate
+Source: Author's Calculations
+
+Sustainability & Company Culture
+Taiwan Semiconductor appears to take sustainability seriously, it publishes an annual ESG report and has been included in many sustainability indexes such as the FTSE4Good. It also has a high Glassdoor rating, with most employees approving of the CEO and saying they would recommend the company to a friend.
+
+
+
+Source: TSM ESG Report
+
+
+
+Source: Glassdoor.com
+
+Risks
+The main risks we see with an investment in Taiwan Semiconductor are:
+
+Semiconductor downturn risk: The semiconductor industry has a history of boom and bust cyclicality. Some believe it has transitioned to a more stable state, but that remains to be seen.
+Technology leadership risks: Taiwan Semiconductor is priced as the semiconductor manufacturing leader, but there is some risk that companies like Intel and Samsung could catch up to it at future technology nodes.
+Political and military risk: The People's Republic of China remains a threat to Taiwan, with an invasion of Taiwan not outside the realm of possibilities, which would lead to a destabilized Taiwanese economy, and potential losses for TSM shareholders.
+Conclusion
+Much hinges on whether the company is still cyclical or if it has truly transitioned into a growth company. The way we see it, an investment at these prices could work out well for long-term investors if two conditions are maintained, that TSM continues to be the technology leader of the pack and that the industry avoid another deep bust cycle. Otherwise we believe the best option for investors is to wait for more attractive prices by adding the company to a watch list for the time being.

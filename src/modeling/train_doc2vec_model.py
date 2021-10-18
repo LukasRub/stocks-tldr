@@ -93,17 +93,17 @@ def main():
   
     param_grid = [
         # PV-DM model with negative sampling with concatenation of context word vectors. 
-        { 
+        {
             "vector_size": [100], 
-            "epochs": [20],
-            "window": [3], 
+            "epochs": [40],
+            "window": [2], 
             "negative": [20],
         },
         {
-            "vector_size": [150], 
+            "vector_size": [50, 75], 
             "epochs": [20],
-            "window": [2, 3, 4, 5], 
-            "negative": [10, 20],
+            "window": [1, 2], 
+            "negative": [20],
         }
     ]
    
