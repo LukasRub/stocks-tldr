@@ -88,23 +88,19 @@ def create_or_load_tagged_corpus(source, force_create=False, source_serialized="
 def main():
     documents = create_or_load_tagged_corpus("data/processed/articles/")
 
-    common_params = dict(dm=1, dm_concat=1, hs=0, ns_exponent=0.75, min_count=5, 
-                         sample=1e-5, workers=multiprocessing.cpu_count())
+    common_params = dict(dm=1, dm_concat=1, hs=0, ns_exponent=0.85, min_count=2,  
+                         sample=1e-4, workers=multiprocessing.cpu_count(), 
+                         alpha=0.1)
   
     param_grid = [
         # PV-DM model with negative sampling with concatenation of context word vectors. 
         {
-            "vector_size": [100], 
-            "epochs": [40],
-            "window": [2], 
-            "negative": [20],
-        },
-        {
-            "vector_size": [50, 75], 
-            "epochs": [20],
-            "window": [1, 2], 
-            "negative": [20],
+            "vector_size": [100],   # "vector_size": [100], 
+            "epochs": [30],         # "epochs": [40],
+            "window": [3],          # "window": [1,2], 
+            "negative": [30]        # "negative": [30]
         }
+
     ]
    
     for params in ParameterGrid(param_grid):

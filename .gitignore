@@ -7,8 +7,8 @@ data/
 models/
 
 # IPython checkpoints and compiled files
-**/__pycache__/
-**.ipynb_checkpoints/
+__pycache__/
+.ipynb_checkpoints/
 
 # NumPy arrays and archives
 *.npy

@@ -1,0 +1,149 @@
+Freeport-McMoRan - A Coffer Full Of Copper
+
+Introduction
+Freeport-McMoRan (FCX) is a pure play copper miner with operations in North America, South America (Peru and Chile), and in Indonesia. FCX’s portfolio of assets includes the Grasberg minerals district in Indonesia, one of the world’s largest copper and gold deposits; and significant mining operations in North America and South America, including the large-scale Morenci minerals district in Arizona and the Cerro Verde operation in Peru.
+
+In a nutshell, I believe that copper is mission-critical for a more electrified world. FCX is well-positioned to capture this demand-driven wave for the 'green metal' from its world-class mines and long-lived reserves. Let FCX speak for themselves below.
+
+Freeport-McMoRan Compelling Investment Case
+
+Source: FCX, 2Q21 Earnings Presentation
+
+Investment thesis
+Favorable demand outlook
+Anything with electricity requires some degree of copper be it wind turbines, solar panels, electric vehicles or energy storage. The green wave is creating a massive tailwind of demand in the decades to come. I see copper as one of the green metals and a key input factor for the renewable energy market. We all know directionally where that end market is going: up (if you like it or not).
+
+An additional benefit from this 'green tailwind' is the fact that a continued rise in copper demand does not fully hinge on China as was the case in a previous upward cycle for copper.
+
+Supply deficit
+It is expected by Goldman Sachs and Woodman that copper will be in a supply deficit as from 2024 onwards and that the 10-year long-term supply gap is the highest in decades now. The mine supply according to their research will peak in 2024E and then slowly decline. Although in the near-term the market looks to be more in balance, it is likely that new mine development will significantly lag the boom in demand from 2025 onward for copper. The lead times for additions to existing mines (~2-4 years) and for new projects (5+ years) indicate that any sufficient supply in the future is hinging on capital allocation decisions now. My sense is that capital allocation to major greenfield copper projects now is not a priority for miners.
+
+Balancing supply and demand with a higher copper price
+The traditional response to a supply deficit is that prices will go up to incentivize supply additions. The aforementioned decisions to be made in favor of capital expenditures into (risky) greenfield projects will depend also on the development of the copper price (sustainably at a higher level, in my view, to create the right incentive level).
+
+The current spot copper price is $4.3 per lb and, historically, near all-time highs.
+
+Copper price
+
+Source: Trading Economics
+
+Normally, this would worry me from a 'reversion to the mean' thinking, but 'this time it's different'.
+
+The fundamentals of demand and supply seem to favor a sustained level of copper price or even appreciation of its price. I am not in the forecasting business of copper prices. Luckily, someone else is: Goldman Sachs has a 12-month price expectation for copper at $11,500 per mt (which converts to ~$5.3 per lb) which implies a further ~20% copper price appreciation.
+
+Copper is likely to enter into a next leg up in the pricing cycle.
+
+Organic growth options and long-lived reserves
+FCX has a portfolio of internal growth options that it can pursue if it so wishes. I doubt that FCX will venture into too many projects at once, having learned its lessons that a concentrated and controlled expansion is more desirable.
+
+FCX Projects
+
+Source: FCX, 2Q21 Earnings Presentation
+
+These growth options come on top of FCX's existing reserves. These reserves are the estimated consolidated recoverable proven and probable reserves using long-term average prices of $2.50/lb for copper and $1,200/oz for gold.
+
+Freeport-McMoRan Existing Reserves
+
+Source: FCX, 2020 Annual Report
+
+Based on FCX's 2022E sales projection, the existing reserves allow for ~26 years of mine life in copper, ~18 years of mine life in gold, and ~46 years of molybdenum.
+
+Freeport-McMoRan Annual Sales Profile
+
+Source: FCX, 2Q21 Earnings Presentation
+
+So FCX can sit still, focus on execution of the current operations, without a need for incremental spending beyond maintenance capex. That is a great position to be in.
+
+Full run rate capacity of Grasberg by year-end 2021
+By the end of 2021, the underground Grasberg mine will be run at full capacity with 2022 being the first full year at this capacity. As of then, there will be material positive volume improvements compared with 2021 in copper and gold.
+
+Freeport-McMoRan Grasberg Underground Advancing on Schedule
+
+Source: FCX, 2Q21 Earnings Presentation
+
+Significant FCF generation
+FCX's guidance for operating cash flows (OCF) in 2022E and 2023E is $9.0bn annually based on a copper price of $4.00 per lb. In the 2Q21 earnings presentation, FCX provided its 2021E OCF guidance of $7.5bn.
+
+Freeport-McMoRan EBITDA and Cash Flow at Various Copper Prices
+
+Source: FCX, 2Q21 Earnings Presentation
+
+The increase of OCF into 2022E is driven by the abovementioned ramp up in the Grasberg mine completing by the end of this year.
+
+The capex profile in the near term is also provided.
+
+Freeport-McMoRan Consolidated CapEx
+
+Source: 2Q21 Earnings Presentation
+
+Assuming no working capital movements, in a base case scenario, FCX's free cash flow (FCF) for 2022E and 2023E is $6.5bn annually on a consolidated basis.
+
+I say on a consolidated basis because FCX fully consolidates some joint ventures in which it has operational control:
+
+1. Grasberg - economic interest of 81.27% through 2022 and 48.76% thereafter;
+
+2. Cerro Verde - economic interest of 53.56%; and
+
+3. El Abra - economic interest of 51%.
+
+Note: FCX's Morenci mine is proportionally consolidated for FCX's 72% economic interest so no adjustment is required.
+
+The FCF from these mines are fully consolidated into FCX, and for the FCF attributable to FCX shareholders, we will need to adjust for this as they effectively belong to FCX joint venture partners.
+
+This adjustment process on a FCF basis is quite challenging. For the purpose of simplicity, I have taken a 60% discount on the fully consolidated FCF on a 2023E basis (assuming Grasberg is stepped down in economic interest) which looks conservative to me but still with room for material error. If one were to look at FCX's cash flow statements for 2Q21, it shows dividend payments of which ~45% goes to noncontrolling interests (FCX's joint venture partners) which I used as a starting point.
+
+Knowing this can be materially wrong, I provide a sensitivity to FCX's 2023E FCX based on (i) movements in the copper price and (ii) the adjustment for noncontrolling interests.
+
+FCF attributable to FCX shareholders
+
+Source: Author, FCF attributable to FCX shareholders, sensitivities to copper price and noncontrolling interests assumptions
+
+My conservative stance to a base case scenario for FCX is arriving at $2.6bn of FCF in 2023E with upside risk to rising copper prices and a too conservative noncontrolling interests assumption.
+
+I think the market might be underestimating the impact of noncontrolling interests on FCX's FCF potential since the guidance is explicitly on the fully consolidated operations. One could quickly use the $6.5bn from FCX's implied guidance as the FCF potential but significantly overstate FCX shareholders' entitlement thereof.
+
+Significant capital distributions to shareholders starting 2022
+FCX's financial policy states that up to 50% of FCF will be distributed to shareholders. In the tiny footnote on the slide below, one can see the remark regarding noncontrolling interests and the FCF calculation that I used in the prior section.
+
+Freeport-McMoRan Financial Policy
+
+Source: FCX, 2Q21 Earnings Presentation
+
+Based on the above conservative base case scenario (copper at $4.00 per lb and 60% of FCF to noncontrolling interests), I provide an FCF yield that can serve as the basis for an income strategy from FCX's share. The FCF yield is based on the ~$47.3bn market capitalization of FCX as of the close of business 24 September 2021.
+
+FCX stock - FCF yield, sensitivities to copper price
+
+Source: Author, FCF yield, sensitivities to copper price and noncontrolling interests assumptions
+
+At these assumptions, the up to 50% commitment on FCF distribution from FCX will be a material improvement of FCX's capital distribution. The base dividend of $0.30 per share annually will be topped up with significant pay-outs either through special dividends or share buy-backs.
+
+A decision with regard to the quantum and mix of this capital distribution by FCX will be made following its release of the 2021 results.
+
+Valuation
+Based on the 2Q21 position, FCX has an enterprise value (EV) of ~$59.6bn which includes its market capitalization of ~$47.3bn, net debt of $3.4bn and minority interest (or noncontrolling interests) of ~$8.9bn.
+
+The last twelve month (LTM) EBITDA is ~$8.0bn for 2Q21 and the projected EBITDA in 2022E on a copper price of $4.00 per lb is $12.5bn. This implies an EV/EBITDA of 7.5x for a 2Q21 LTM basis and an EV/EBITDA of 4.8x for 2022E.
+
+Together with the 5.5% FCF yield for 2023E (higher in 2022E due to the ownership stepdown as of 2023 in Grasberg) which will translate to potentially in material dividends to shareholders, the valuation is not stretched by any means.
+
+Risk Factors
+The biggest impact risk I see for FCX is the country risk of their operations outside the United States. Changes in political leadership and less stability always will create a degree of risk that is hard to factor in explicitly.
+
+In Peru, discussion now centers more around potential taxes that miners would be due. Involving the IMF is a sensible approach in my view. If material higher taxes are due by the miners, this can be a negative impact in the short term.
+
+In Chile, in the wake of recent civil unrest, there is increased pressure to curb miners or to extract further royalties in case of rising copper prices.
+
+In Indonesia, FCX has cemented its relationship with the Indonesian government a few years ago. It will still continue solid navigation in a potentially volatile environment, for example, the FCX commitment to build a smelter in Indonesia.
+
+FCX Indonesian smelter update
+
+Source: FCX, 2Q21 Earnings Presentation
+
+Let's not forget the usual macro risks that exist such as China / Evergrande, inflation and higher interest rates, growth expectations, income disparity, politics, unknown unknowns, etc. There is always something to worry about!
+
+Conclusion
+There are many reasons to be invested in copper and FCX in my view. Copper is the metal that supports the green and renewable energy initiatives. There is not enough supply for the future demand which is likely to increase copper prices further.
+
+FCX has an enviable position. It has reached near-stability in all its mines with organic growth options not requiring new greenfield investments. Moderately valued at 4.8x EV/EBITDA 2022E and at 5.5% FCF yield 2023E based on a copper price of $4.00 per lb and a 60% attribution of FCF to noncontrolling interests.
+
+This all leaves upside risk. At $5.00 per lb copper price, the FCF yield in 2023E would be 8.3%. I am a go on FCX.

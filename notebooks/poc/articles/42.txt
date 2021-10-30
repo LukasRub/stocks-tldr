@@ -1,0 +1,50 @@
+Cisco Exec Riffs On Global 5G Core Delays
+
+A 5G standalone (SA) core, more than anything else, defines what is and isn’t true 5G, and deployments remain astonishingly rare globally. 
+
+Multiple factors have thus far precluded an abundance of 5G cores, including technical, financial, and readiness, according to Cisco EVP Jonathan Davidson.
+
+Because most operators initially deployed 5G on a non-standalone (NSA) core anchored to 4G LTE, engineers are left no choice but to manage and operate networks, at least temporarily, running on 4G LTE, 5G NSA, and 5G SA. And that’s complicated, the GM of Cisco’s Mass-Scale Infrastructure Group, explained in a phone interview. 
+
+“If you were to look at the call flows for how you do handoffs from 4G to 5G NSA to 5G SA, the control plane complexity is really high. And a lot of [operators] are putting in different cores, and so the handoffs are challenging,” he said. 
+
+Signaling issues become less troublesome in a converged core — an effort that will help but take more time to realize. “I think that will help, but still you have to upgrade to that converged core, and that’s not as simple as upgrading your iPhone. It’s critical infrastructure,” Davidson said. 
+
+Featured Content
+IDC Report: The Keys to Data Center Modernization Placeholder Image
+IDC Report: The Keys to Data Center Modernization
+IDC Report: The Keys to Data Center Modernization
+Sponsored by Pluribus Networks
+
+Private cloud will host 50% plus for the workloads for the foreseeable future. Learn how and why you should optimize.
+
+DOWNLOAD
+Cisco Flexes T-Mobile’s Flagship 5G SA
+T-Mobile US, with assistance from Cisco, Ericsson, and Nokia, activated the world’s first 5G SA network operating on a 5G core in August 2020. It remains the only nationwide carrier to achieve that feat. 
+
+Some operators are still waiting for selected vendors to deliver commercial-ready technology. “There’s a number of vendors who over-promised,” Davidson said.
+
+Readiness must also be achieved in-house because 5G SA introduces a new mode of operation. “This is very different than how critical infrastructure has been done in the past,” he said. “It’s much more real time and that’s great.” 
+
+One of Cisco’s 5G SA customers receives new code from Cisco twice a week and it’s deployed in the operator’s production network a day or two later, according to Davidson.
+
+“I always viewed 5G as really an excuse to change the operating model for moving to software. We knew this big architectural shift was happening” he said. “So, jointly with our customers, why don’t we use this as an opportunity to fundamentally change how infrastructure is deployed, managed, and operated?” 
+
+‘Pure 5G as It Was Meant To Be’
+What makes 5G SA important? “It’s true 5G,” Davidson said. “It’s the promise of 5G. It’s not a hybrid where you still have to use some of the old 4G parts to make the 5G work. This is pure 5G as it was meant to be.” 
+
+Operators gain many of the benefits expected with 5G once they transition to 5G SA, he added. A 5G core unlocks the potential for new services, including massive IoT, fixed wireless access, and network slicing, or what Davidson refers to as segmentation.
+
+“Moving to a more software-defined future with 5G SA means that you can go and dynamically offer different levels of service-level agreements for applications, for user groups, and things of that nature,” he explained.
+
+5G Core Revenues Plummet Amid Operator Indecisiveness
+The slow uptake of 5G mobile cores globally is also showing up in vendors’ 5G core revenues, according to a recent Dell’Oro Group report. The mobile core network market slowed to 6% year-over-year growth in the second quarter of 2021, following four consecutive quarters of double-digit growth.
+
+5G core market growth is now forecast to decelerate through the next four quarters, dropping to 17% year-over-year growth in the second quarter of 2022. Operator indecisiveness is largely to blame, according to David Bolan, research director at Dell’Oro Group. 
+
+“Communications service providers  (CSPs) need to make decisions about which direction to take for 5G SA deployments. CSPs have several options to mull over, with new choices that were not available during the switch from 3G to 4G,” he wrote.
+
+“One decision CSPs need to make is about the selection of NFVi. NFVi can be procured from a 5G core vendor, a third party, the public cloud, or another platform,” Bolan added.
+
+Indeed, the ongoing disaggregation of hardware and software creates complexity for operators in both how and who they choose to help run their 5G cores. Davidson pointed to the access and mobility management function (AMF) as one area where framework choices that impact the 5G core must be made. Most of the early 5G SA operators placed AMF with the radio vendors, but others plan to house AMF with a mobile core vendor, he said.
+
