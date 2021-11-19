@@ -7,29 +7,33 @@ from functools import partial
 from multiprocessing import Lock, cpu_count
 
 import numpy as np
+from tqdm import tqdm
 from joblib import Parallel, delayed
 from gensim.models.doc2vec import Doc2Vec, FAST_VERSION
 
-from utils import tokenize, multiproccess_log
+from utils import tokenize, multiprocess_log
 from utils import get_doc2vec_model_str_repr as model_str_repr
 
 
-PATH_TO_ARTICLES = "data/processed/articles/test"
+PATH_TO_ARTICLES = "data/processed/articles/validation/texts"
 PATH_TO_ENTITIES = "data/processed/entities"
-MODEL_DIR = "models/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t16,ep40)"
+MODEL_DIRECTORIES = ["models/Doc2Vec(dm-c,d100,n20,w2,mc5,s1e-05,t4,ep40)",
+                     "models/Doc2Vec(dm-c,d50,n20,w2,mc5,s1e-05,t4,ep20)",
+                     "models/Doc2Vec(dm-c,d100,n20,w3,mc5,s1e-05,t4,ep40)",
+                     "models/Doc2Vec(dm-c,d100,n20,w4,mc5,s1e-05,t4,ep20)",
+                     "models/Doc2Vec(dm-c,d75,n20,w1,mc5,s1e-05,t4,ep20)"]
 
-PATH_TO_VECTORS = "data/test/user_study"
+PATH_TO_VECTORS = "data/test/user_study/vectors"
 ARTICLE_VECTORS_DIR = "article_vectors"
 ENTITY_VECTORS_DIR = "entity_vectors"
 
-ARTICLE_VECTORS_FILENAME_FMT = "vpa{vecs_per_article}.ep{epochs}.av.vectors.npy"
+ARTICLE_VECTORS_FILENAME_FMT = "validation.vpa{vecs_per_article}.ep{epochs}.av.vectors.npy"
 ENTITY_VECTORS_FILENAME_FMT = "{ticker_sybmol}.vpe{vecs_per_ent}.ep{epochs}.ev.vectors.npy"
 
 LOCK = Lock()
 
 
-def infer_single_article_vectors(model, article_path, lock=LOCK, 
-                                 vectors_per_article=100):
+def infer_single_article_vectors(model, vectors_per_article, article_path, lock=LOCK):
     # Read and tokenize article text
     with open(article_path, "r", encoding="utf-8") as fp:
         article_txt = fp.read()
@@ -41,7 +45,7 @@ def infer_single_article_vectors(model, article_path, lock=LOCK,
 
     # Displaying a status message
     status_msg = f"Inferring article {article_path.name} vectors..."
-    multiproccess_log(status_msg, lock)
+    multiprocess_log(status_msg, lock)
 
     t0 = time()
 
@@ -54,12 +58,12 @@ def infer_single_article_vectors(model, article_path, lock=LOCK,
     # Displaying a status message 
     fmt = (article_path.name, t1)
     status_msg = "Inferring vectors for article {0} finished, took {1:.0f} seconds"
-    multiproccess_log(status_msg.format(*fmt), lock)
+    multiprocess_log(status_msg.format(*fmt), lock)
 
     return (article_path.name, avs)
 
 
-def infer_single_entity_vectors(model, entity_path, lock=LOCK, vectors_per_entity=10):
+def infer_single_entity_vectors(model, vectors_per_entity, entity_path, lock=LOCK):
     # Setting up representations for the entity and model in question
     entity_ticker = entity_path.name.split(".")[0]
     model_name = model_str_repr(model)
@@ -77,8 +81,13 @@ def infer_single_entity_vectors(model, entity_path, lock=LOCK, vectors_per_entit
     evs_path_ = Path(evs_path.as_posix() + ".npz")
     if evs_path_.exists() and evs_path_.is_file():
         status_msg = f"Entity {entity_ticker} vectors for {model_name} already exist."
-        multiproccess_log(status_msg, lock)
+        multiprocess_log(status_msg, lock)
         return
+    elif not evs_path_.parent.exists(): 
+        with lock:
+            evs_path.parent.mkdir(parents=True, exist_ok=True)
+        status_msg = f"Creating a directory at {evs_path.parent}..."
+        multiprocess_log(status_msg, lock)
 
     # Read entity file
     with open(entity_path, "r", encoding="utf-8") as fp:
@@ -92,7 +101,7 @@ def infer_single_entity_vectors(model, entity_path, lock=LOCK, vectors_per_entit
 
     # Displaying a status message
     status_msg = f"Inferring entity {entity_ticker} vectors..."
-    multiproccess_log(status_msg, lock)
+    multiprocess_log(status_msg, lock)
 
     t0 = time()
 
@@ -112,19 +121,19 @@ def infer_single_entity_vectors(model, entity_path, lock=LOCK, vectors_per_entit
     # Displaying a status message 
     fmt = (entity_ticker, t1, evs_path)
     status_msg = "Inferring vectors for entity {0} finished, took {1:.0f} seconds, saving to {2}..."
-    multiproccess_log(status_msg.format(*fmt), lock)
+    multiprocess_log(status_msg.format(*fmt), lock)
 
     # Saving vectors to disk
     kwargs = dict(evs_full=evs_full, evs_summary=evs_summary, evs_child=evs_child)
     np.savez(evs_path, **kwargs)
 
 
-def infer_article_vectors(model, article_paths=str(PATH_TO_ARTICLES), 
-                          lock=LOCK, vectors_per_article=100):            
+def infer_article_vectors(model, vectors_per_article, lock=LOCK, 
+                          article_paths=str(PATH_TO_ARTICLES)):           
     # Setting up model str representation and paths
     model_name = model_str_repr(model)
     article_paths = sorted(Path(article_paths).glob("*.txt"), 
-                           key=lambda x: int(x.name.split(".")[0]))
+                           key=lambda x: int(x.name.split(".")[0][-1]))
     
     fmt = dict(vecs_per_article=vectors_per_article, epochs=model.epochs)
     avs_path = (Path(PATH_TO_VECTORS) 
@@ -135,11 +144,18 @@ def infer_article_vectors(model, article_paths=str(PATH_TO_ARTICLES),
     # Skip inferring vectors for this entity if they were computed before
     if avs_path.exists() and avs_path.is_file():
         status_msg = f"Article vectors for {model_name} already exist."
-        multiproccess_log(status_msg, lock)
+        multiprocess_log(status_msg, lock)
         return
+    else:
+        with lock:
+            avs_path.parent.mkdir(parents=True, exist_ok=True)
+        fmt = (model_name, avs_path.parent)
+        status_msg = "Article vectors for {} don't exist. Creating a directory at {}..."
+        multiprocess_log(status_msg.format(*fmt), lock)
 
     # Freeze `model` arg of `infer_single_article_vectors` func
-    infer_single_article_vectors_ = partial(infer_single_article_vectors, model)
+    infer_single_article_vectors_ = partial(infer_single_article_vectors, 
+                                            model, vectors_per_article)
 
     # Parallelize  partial `infer_single_article_vectors_` func computation
     parallelized = Parallel(n_jobs=cpu_count(), backend="multiprocessing", 
@@ -148,20 +164,26 @@ def infer_article_vectors(model, article_paths=str(PATH_TO_ARTICLES),
     results = parallelized(delayed(infer_single_article_vectors_)
                            (article_path) for article_path in article_paths)
     
-    # Validate the order of the results:
+    # Initializing empty array for article vectors
+    avs = np.empty((len(article_paths), vectors_per_article, model.vector_size))
+
+    # Validate the order of the results and assign vectors
     for article_id, (article_name, article_vectors) in enumerate(results):
-        assert article_id == int(article_name.split(".")[0])
-        print(article_id, article_name, article_vectors.shape)
+        assert article_id == int(article_name.split(".")[0][-1])
+        avs[article_id, :, :] = article_vectors
+    
+    np.save(avs_path, avs)
 
 
-def infer_entity_vectors(model, entity_paths=str(PATH_TO_ENTITIES), lock=LOCK, 
-                         vectors_per_entity=10):
+def infer_entity_vectors(model, vectors_per_entity, lock=LOCK, 
+                        entity_paths=str(PATH_TO_ENTITIES)):
     # Setting up paths
     entity_paths = sorted(Path(entity_paths).glob("*.json"),
                           key=lambda x: x.name.split(".")[0])
 
     # Freeze `model` arg of `infer_single_entity_vectors` func
-    infer_single_entity_vectors_ = partial(infer_single_entity_vectors, model)
+    infer_single_entity_vectors_ = partial(infer_single_entity_vectors, 
+                                           model, vectors_per_entity)
 
     # Parallelize  partial `infer_single_entity_vectors_` func computation
     parallelized = Parallel(n_jobs=cpu_count(), backend="multiprocessing", 
@@ -171,21 +193,30 @@ def infer_entity_vectors(model, entity_paths=str(PATH_TO_ENTITIES), lock=LOCK,
                             (entity_path) for entity_path in entity_paths)
 
 
-def main(model_dir=str(MODEL_DIR), vectors_per_article=100, 
+def infer_model_vectors(model_path, vectors_per_article=100, 
          vectors_per_entity=10, lock=LOCK):
-
-    # Setting up model path
-    model_path = Path(model_dir) / Path(model_dir).name
     assert model_path.exists() and model_path.is_file()
     
     # Load model
     model = Doc2Vec.load(model_path.as_posix())
 
     # Infer article vectors
-    # infer_article_vectors(model, vectors_per_article=vectors_per_article)
+    infer_article_vectors(model, vectors_per_article)
 
     # Infer entity vectors
-    infer_entity_vectors(model, vectors_per_entity=vectors_per_entity)    
+    # infer_entity_vectors(model, vectors_per_entity)    
+
+
+def main(model_directories=MODEL_DIRECTORIES, vectors_per_article=100, 
+         vectors_per_entity=10, lock=LOCK):
+    
+    model_directory_paths = [Path(model_dir) for model_dir in model_directories]
+    model_paths = [model_dir / model_dir.name for model_dir in model_directory_paths]
+    
+    for model_path in tqdm(model_paths):
+        infer_model_vectors(model_path, vectors_per_article=100, 
+                            vectors_per_entity=10)
+
 
 
 if __name__ == "__main__":

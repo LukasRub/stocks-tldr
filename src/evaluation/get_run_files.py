@@ -12,7 +12,7 @@ from sklearn.model_selection import ParameterGrid
 
 
 RUN_FILE_LINE_FMT = "{article_id} Q0 {entity} {rank} {score} {run_id}"
-PATH_TO_VECTORS = "data/test/doc2vec/vectors"
+PATH_TO_VECTORS = "data/test/trec_eval/vectors"
 RUN_FILES_DIR = "run_files"
 SIMILARITIES_FILE = "similarities.json"
 LOCK = Lock()
@@ -86,8 +86,8 @@ def score_model_performance(model_path):
 
 
 def main():
-    model_paths = sorted(list(Path(PATH_TO_VECTORS).glob("*/")),
-                         key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
+    model_paths = list(Path(PATH_TO_VECTORS).glob("*/"))
+                         
 
     parallelized = Parallel(n_jobs=cpu_count(), backend="multiprocessing", 
                             verbose=40, batch_size=1, max_nbytes=None, 

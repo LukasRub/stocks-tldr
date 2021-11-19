@@ -104,8 +104,13 @@ def calculate_similarities(model_path):
 
 def main():
     # Setting up paths
-    model_paths = sorted(list(Path(PATH_TO_VECTORS).glob("*/*")),
-                         key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
+    # model_paths = sorted(list(Path(PATH_TO_VECTORS).glob("*/*")),
+    #                      key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
+
+    model_paths = [Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t8,ep30)"),
+                   Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t8,ep30)"),
+                   Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep30)"),
+                   Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep40)")]
 
     parallelized = Parallel(n_jobs=cpu_count(), backend="multiprocessing", verbose=40, 
                             batch_size=1, max_nbytes=None, mmap_mode=None)

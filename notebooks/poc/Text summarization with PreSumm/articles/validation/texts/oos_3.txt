@@ -1,0 +1,91 @@
+The Reddit revolt: GameStop and the impact of social media on institutional investors
+
+Following the explosive events surrounding GameStop in January, Annabel Smith unpacks the role of social media in this cautionary tale and its impact on institutional investors.
+
+The Reddit revolution in the US has drawn attention to the potential power that a growing force of retail investors can wield in stock markets when equipped by social media.
+
+Amateur investors have increasingly engaged with retail platforms in the last year, partly due to the pandemic leaving them idol at home, but also due to the newfound onslaught of information through social media and access to the market through retail brokerages and platforms such as Robinhood.
+
+Set up in 2013 the mobile trading app, now valued at $21 billion and proclaimed to be democratising finance, offers investors access to the financial markets with zero commissions.
+
+“For the largest online brokers, the number of daily trades has tripled since 2019,” John Marshall, head of derivatives research at Goldman Sachs, commented on a retail investment podcast from the US bank. “But this has mainly been driven by a small portion of their customer base. These day traders are less than 10% of their customers, but they represent more than half of their trades.”
+
+Meme-stocks
+
+The events that took place involved stocks such as GameStop and AMC Entertainment in what is considered one of the first social media driven and coordinated buying regimes by retail investors. It resulted in market conditions likened to the dot com bubble around the turn of the century, leading to concerns that institutional investors must now adapt their risk models to mitigate the possibility of this happening again.
+
+To put the gravity of the situation into perspective, on 27 January at the height of the GameStop saga, 24 billion shares were traded on US exchanges, surpassing the previously set record by 4 billion shares traded in the 2008 global financial crisis.
+
+“Until now, retail trading activity has never been able to move the market one way or another. However, following the successful coordination by a large group of traders, the power dynamic has shifted; exposing the vulnerability of the market as well as the weaknesses in firms’ trading systems,” says Guy Warren, chief executive officer of FinTech ITRS Group.
+
+“20 February marks one year since the beginning of the COVID-19 stock market crash. Twelve months on and the trading landscape has changed forever – but not as a consequence of the global pandemic. Instead, the retail trading revolt of Reddit users has been the catalyst to change the game entirely.”
+
+Well-informed individuals keen to manipulate the market, posted information on social media forums such as the Reddit chatroom r/wallstreetbets, which boasts 4.8 million members, encouraging the masses to buy shares with the hope that it would drive the price of certain stocks up. Motives behind this onslaught ranged from making personal profit to a desire to squeeze the short positions of hedge funds.
+
+Prompted by the information posted on social media retail investors began buying these so called “meme-stocks” including GameStop, AMC Entertainment, Blackberry, and Nokia. The activity sent their prices soaring, with the GameStop share prices climbing over 1000% in just two weeks.
+
+Retail investors usually focus on large-cap names as opposed to the small-cap consumer stocks undergoing structural challenges. Information on social media, however, drew attention to these struggling companies. 
+
+“When investors see testimonials of others that have had outsized returns their attracted to more speculative trading strategies,” added Marshall in the Goldman Sachs podcast.
+
+On 26 January, billionaire chief executive of electric car company Tesla, Elon Musk, affectionately dubbed Papa Musk on Reddit, tweeted “Gamestonk!!” with a link to the r/wallstreetbets chatroom. Musk’s twitter profile with 48 million followers gathered even more momentum for the exploding GameStop share price increase.
+
+“We’ve all seen what happens to markets when Elon Musk tweets something.  Somebody might want to take his phone charger away for a while,” says Matt McLoughlin, head of trading at Liontrust Asset Management.
+
+“However, this is the first time that we’ve witnessed social media being used by groups of people to move markets. There are other challenges that social media will bring to financial markets and this is probably the first taster of what’s to come.”
+
+Steal from the rich to give to the poor
+
+GameStop was heavily shorted by hedge funds. As a brick and mortar shop during a global pandemic selling physical games in an increasingly digitised market, the company was expected to underperform.
+
+Through social media, retail investors weaponised their involvement in stock markets to negatively affect hedge funds who had taken short positions in companies like GameStop.
+
+“A co-ordinated and well-informed market manipulation used retail platforms like Robinhood to squeeze shorts on the likes of GameStop and AMC,” says Steve Keslo, head of markets at ITI Capital.
+
+A short squeeze takes place when a price is deliberately driven higher to increase the losses of hedge funds that had bet the price would fall. It is exacerbated by the fact that hedge funds with short bets are also forced to buy back shares to minimise their losses, further driving the price up.
+
+According to data and analytics firm S3 Partners, by 27 January short sellers had accumulated losses of more than $5 billion in 2021, including a loss of $1.6 billion on the 22 January and $917 million on 25 January.
+
+Social media forums have become breeding grounds for ‘activism investment’ and an anti-Wall Street establishment movement, driven by retail investors who have banded together in a bid to take down financial institutions by squeezing their short positions.
+
+“In wider society, financial markets don’t have the best reputation and outsiders view hedge funds in an even worse light, which is probably why they have been targeted in the GameStop saga,” explains McLoughlin.
+
+“Some GIFs on social media platforms said that it would be funny to take a global investment bank down. I don’t think it would be funny for the US economy or good for the individuals making those GIFs if that actually happened.  There is sometimes a disconnect between what is put on social media and reality.”
+
+Rethink risk
+
+With many Reddit revolutionaries praising the chaos that has ensued for certain financial institutions there is the potential for another coordinated social media-fuelled squeeze to take place, and for this reason, institutional investors will need to place a greater emphasis on risk management practices.
+
+Social media has continued to play a role in stock markets since the GameStop saga. The Securities and Exchange Commission (SEC) stepped in and banned trading in six names on 26 February following speculation that they “may also have been targets of apparent social media attempts to artificially inflate their stock price”.
+
+Reddit favourites such as GameStop and AMC Entertainment also continued to rally on 1 March, rising 10.1% and 13.7% respectively, as more day traders congregated on social media to try and repeat the spikes seen in January.
+
+The risk models of certain hedge funds and institutional investors proved themselves redundant in a situation like the one that unfolded in January. As an event like it has never happened before, risk models have never had to comprehend the situation that took place and were subsequently not equipped to manage them.
+
+“If you’re a hedge fund engaged in the practice of shorting and that’s part of your business model, you’re running a long book and a short book and you’re relatively balanced, you’ve had a certain view of how much risk any single-name short position could be,” Raj Mahajan, global head of systematic client franchise at Goldman Sachs, said alongside Marshall in the Goldman Sachs podcast.
+
+“But what we learned last week is that the risk models didn’t contemplate a 10x move in the short against you or a 20x move in the short against you.”
+
+As their positions became increasingly squeezed, hedge funds were also forced to reduce their leverage by trading in more solid and secure stocks. This in turn has meant that long-only buy-side firms have felt the effects of the volatility taking place in the short market.
+
+“This situation was important for long investors to understand because all of a sudden hedge funds started selling long positions in other solid names where asset managers were investing, and all of a sudden you had some limited selling pressure in these names,” says Christoph Hock, head of multi-asset trading at Union Investment.
+
+Not dissimilar from the way Yahoo message boards were used by traders in the past to inform themselves about trading strategies and trends, institutional traders will now have to pay greater attention to information posted on social media platforms such as Reddit and Twitter.
+
+Retail participation in a particular stock will have to be assessed further by those intending to invest in it and hedge funds in particular will have to pay close attention to posts on Reddit in order to stay ahead of the curve.
+
+“These days to fully get the picture right to understand what’s going on in the market you definitely have to take into account what retail investors are doing,” adds Hock.
+
+Institutional investors may also be forced to further diversify their portfolios with alternative assets and strategies as a means to mitigate the risk associated with volatility in the equities market.
+
+“Asset managers will be increasingly aware of the asymmetric risk associated with shorting single-stock equities, particularly within market-neutral and traditional long-short vehicles and mandates. Instead, these traditional stock pickers will need to invest in the expertise of risk management via derivatives and more diverse hedging strategies,” explains Keslo.
+
+Eight-year highs in silver prices caused by retail investors following GameStop also forced Aberdeen Standard Investors to introduce a ‘Reddit Clause’ to its physically backed silver exchange traded-fund (ETF), referring to the potential manipulation of silver pricing through social media campaigns.
+
+Financial regulators now face a conundrum on how to regulate this squirming mass of individual social media accounts and how to determine what constitutes market manipulation. As the situation reached a crescendo on 28 January Robinhood was forced to place a ban on users purchasing securities such as GameStop that had gathered momentum on social media.
+
+Since then, outraged retail investors have filed multiple lawsuits against Robinhood, infuriated that institutions were not subject to similar bans and restrictions on trading. The question of whether access to the stock markets is sufficiently democratised is now firmly on the table and will continue to be debated for months to come.
+
+While the US equities markets has ultimately righted itself, the GameStop saga has identified a weakness that will need to be addressed. The face of the market has changed and with a growing number of people now able to access and share information through social media, the door remains open for further turbulence that could negatively impact institutional investors.
+
+“Asset managers and hedge funds will start to pay a lot more attention to the risks around social media and its potential impact,” McLoughlin concludes.

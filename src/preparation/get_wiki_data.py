@@ -1,5 +1,3 @@
-from CompactJSONEncoder import CompactJSONEncoder
-
 import os
 import json
 import logging
@@ -10,12 +8,14 @@ from functools import partial
 from multiprocessing import Lock, cpu_count
 
 import wikipedia
+from wikipedia.exceptions import WikipediaException
 from joblib import Parallel, delayed
 from tqdm.contrib.concurrent import  thread_map
 from tqdm import tqdm  
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-from wikipedia.exceptions import WikipediaException
+
+from CompactJSONEncoder import CompactJSONEncoder
 
 
 PATH_TO_STOCKS = "data/processed/stocks/revolut.2021-07-05.complete.stocks.jsonl"
@@ -23,7 +23,6 @@ PATH_TO_EXISTING_ENTINTIES = "data/samples/sample_entities/revolut.2021-08-19.to
 PATH_TO_ENTITIES_DIR = "data/processed/entities"
 ENTITY_FILENAME_FMT = "{entity}.ce{n_child}.entity.json"
 LOCK = Lock()
-
 
 
 def tokenize(text):

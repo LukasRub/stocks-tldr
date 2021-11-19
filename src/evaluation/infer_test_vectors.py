@@ -16,7 +16,7 @@ from gensim.models.doc2vec import Doc2Vec, FAST_VERSION
 PATH_TO_ENTITIES = "data/samples/sample_entities/revolut.2021-08-19.top49.entities.jsonl"
 PATH_TO_MODELS = "models/"
 PATH_TO_ARTICLES = "data/processed/articles/test"
-PATH_TO_VECTORS = "data/test/doc2vec/vectors"
+PATH_TO_VECTORS = "data/test/trec_eval/vectors"
 
 ARTICLE_VECTORS_DIR = "article_vectors"
 ENTITY_VECTORS_DIR = "entity_vectors"
@@ -184,8 +184,10 @@ def main(vectors_per_article=100, vectors_per_entity=50):
     #                      key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
 
     model_paths = [
-        Path("models/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t16,ep40)/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t16,ep40)"),
-        Path("models/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t16,ep40)/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t16,ep40)")
+        Path("models/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep40)/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep40)"),
+        Path("models/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t8,ep30)/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t8,ep30)"),
+        Path("models/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t8,ep30)/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t8,ep30)"),
+        Path("models/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep30)/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep30)")
     ]
 
     article_paths = sorted(list(Path(PATH_TO_ARTICLES).glob("*.txt")), 
