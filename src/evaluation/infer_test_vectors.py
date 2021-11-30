@@ -1,5 +1,4 @@
 import os
-import re
 import json
 import logging
 from pathlib import Path
@@ -184,10 +183,7 @@ def main(vectors_per_article=100, vectors_per_entity=50):
     #                      key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
 
     model_paths = [
-        Path("models/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep40)/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep40)"),
-        Path("models/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t8,ep30)/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t8,ep30)"),
-        Path("models/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t8,ep30)/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t8,ep30)"),
-        Path("models/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep30)/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep30)")
+        Path("models/Doc2Vec(dm-c,d100,n30,w2,mc5,s1e-05,t4,ep20)/Doc2Vec(dm-c,d100,n30,w2,mc5,s1e-05,t4,ep20)"),
     ]
 
     article_paths = sorted(list(Path(PATH_TO_ARTICLES).glob("*.txt")), 

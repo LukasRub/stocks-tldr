@@ -1,5 +1,7 @@
+import re
 import json
 import logging
+import importlib
 from itertools import product
 from pathlib import Path
 from functools import partial
@@ -8,15 +10,17 @@ from multiprocessing import Lock, cpu_count
 import numpy as np
 from joblib import Parallel, delayed
 
-from utils import multiprocess_log
+# spec = importlib.util.spec_from_file_location("utils", "src/processing/utils.py")
+# utils = importlib.util.module_from_spec(spec)
+# spec.loader.exec_module(utils)
 
 MODEL_PATH = "data/test/user_study/vectors/Doc2Vec(dm-c,d100,n20,w4,mc5,s1e-05,t4,ep20)"
-ARTICLE_VECTORS_PATH = "article_vectors/validation.vpa100.ep20.av.vectors.npy"
+ARTICLE_VECTORS_PATH_FMT = "article_vectors/{set_prefix}vpa100.ep{epochs}.av.vectors.npy"
 ENTITY_VECTORS_DIR = "entity_vectors"
 SIMILARITIES_DIR = MODEL_PATH / Path("similarities/validation")
 SIMILARITIES_FILE_NAME = "{ticker_symbol}.validation.similarities.json"
-LOCK = Lock()
 
+LOCK = Lock()
 
 def cosine_similarity(a, e):
     return (np.einsum('ij,ij->i', a, e) 
@@ -91,10 +95,13 @@ def calculate_similarities(avs, evs_path):
 def main():
     # Setting up paths
     model_path = Path(MODEL_PATH)
-    avs_path = model_path / ARTICLE_VECTORS_PATH
+    model_epochs = re.search("ep\d+", model_path.name).group()[2:]
+    avs_path = (
+        model_path / ARTICLE_VECTORS_PATH_FMT.format(set_prefix="validation.",
+                                                     epochs=model_epochs)
+    )
     evs_paths = sorted(list((model_path / ENTITY_VECTORS_DIR).glob("*.npz")),
                        key=lambda x: str(x.name).split(".")[0])
-    
     
     # Loading in article vectors
     avs = np.load(avs_path)

@@ -2,6 +2,7 @@ import re
 import os
 import json
 import logging
+import importlib
 from itertools import product
 from pathlib import Path
 from multiprocessing import Lock, cpu_count
@@ -9,13 +10,19 @@ from multiprocessing import Lock, cpu_count
 import numpy as np
 from joblib import Parallel, delayed
 
+from ..processing.compute_similarities import ARTICLE_VECTORS_PATH_FMT
 
-PATH_TO_VECTORS = "data/test/doc2vec/vectors"
+
+# spec = importlib.util.spec_from_file_location("compute_similarities", "src/processing/compute_similarities.py")
+# compute_similarities = importlib.util.module_from_spec(spec)
+# spec.loader.exec_module(compute_similarities)
+# importlib.import_module('src/processing')
+
+PATH_TO_VECTORS = "data/test/trec_eval/vectors"
 ARTICLE_VECTORS_DIR = "article_vectors"
 ENTITY_VECTORS_DIR = "entity_vectors"
 SIMILARITIES_FILE_NAME = "similarities.json"
 LOCK = Lock()
-
 
 def multiprocess_log(status_msg, lock=LOCK):
     with lock:
@@ -29,9 +36,9 @@ def cosine_similarity(a, e):
 
 
 def get_similarities(arrary, normalized=True, mean=True):
-    similarities = cosine_similarity(arrary[:, 0, :], arrary[:, 1, :])      
+    similarities = cosine_similarity(arrary[:, 0, :], arrary[:, 1, :])
     if normalized:
-        similarities = (1 + similarities) / 2      
+        similarities = (1 + similarities) / 2
     if mean:
         return similarities.mean()
     else:
@@ -52,8 +59,9 @@ def calculate_similarities(model_path):
     model = model_path.name
 
     # Setting path (no need to sort) and loading article vectors
-    avs_path = list((model_path / ARTICLE_VECTORS_DIR).glob("*.npy"))[0]
+    avs_path = model_path / ARTICLE_VECTORS_DIR / "vpa100.ep20.av.vectors.npy"
     avs = np.load(avs_path)
+    print(avs)
 
     # Setting paths (sorted by entity) to entity vectors
     evs_paths = sorted(list((model_path / ENTITY_VECTORS_DIR).glob("*.npz")),
@@ -97,20 +105,22 @@ def calculate_similarities(model_path):
             model_similarities[article_index] = article_similarities
         
         status_msg = f"Saving {model} similarity scores to {similarities_file_path}..."
-        multiprocess_log(status_msg)
+        utils.multiprocess_log(status_msg, lock=LOCK)
         with open(similarities_file_path, "w") as fp:
-            json.dump(model_similarities, fp=fp, ensure_ascii=False)
+            json.dump(model_similarities, fp=fp, ensure_ascii=False, indent="\t")
 
 
 def main():
     # Setting up paths
-    # model_paths = sorted(list(Path(PATH_TO_VECTORS).glob("*/*")),
-    #                      key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
+    model_paths = sorted(list(Path(PATH_TO_VECTORS).glob("*/*")),
+                         key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
+    # avs_paths = [processing.ARTICLE_VECTORS_PATH_FMT.forma]
 
-    model_paths = [Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w1,mc2,s0.0001,t8,ep30)"),
-                   Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w2,mc2,s0.0001,t8,ep30)"),
-                   Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep30)"),
-                   Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w3,mc2,s0.0001,t8,ep40)")]
+    avs_path  = "data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w2,mc5,s1e-05,t4,ep20)/article_vectors/vpa100.ep20.av.vectors.npy"
+    model_paths = Path("data/test/trec_eval/vectors/Doc2Vec(dm-c,d100,n30,w2,mc5,s1e-05,t4,ep20)")
+    
+    avs = np.load(avs_path)
+    
 
     parallelized = Parallel(n_jobs=cpu_count(), backend="multiprocessing", verbose=40, 
                             batch_size=1, max_nbytes=None, mmap_mode=None)

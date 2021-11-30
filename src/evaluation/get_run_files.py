@@ -1,5 +1,4 @@
 import os
-import re
 import json
 import logging
 from pathlib import Path
@@ -37,7 +36,8 @@ def score_model_performance(model_path):
     
     param_grid = {
         "strategy": ["full", "summary"],
-        "ratio": [0, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.85, 0.9, 0.95, 1]
+        "ratio": [0, 0.05, 0.1, 0.15, 0.2, 0.3, 0.4, 0.5, 
+                  0.6, 0.7, 0.8, 0.85, 0.9, 0.95, 1]
     }
 
     for run_params in ParameterGrid(param_grid):
@@ -87,14 +87,10 @@ def score_model_performance(model_path):
 
 def main():
     model_paths = list(Path(PATH_TO_VECTORS).glob("*/"))
-                         
-
     parallelized = Parallel(n_jobs=cpu_count(), backend="multiprocessing", 
                             verbose=40, batch_size=1, max_nbytes=None, 
                             mmap_mode=None)
     parallelized(delayed(score_model_performance)(path) for path in model_paths)
-    # print(model_paths[:1][0])
-    # score_model_performance(model_paths[:1][0])
     
 
 if __name__ == "__main__":

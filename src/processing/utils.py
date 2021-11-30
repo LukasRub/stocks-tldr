@@ -1,7 +1,33 @@
 import os
 import logging
+import json
+from pathlib import Path
+
+import seaborn as sns
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+
+
+class plotting():
+    rc = {
+        "axes.grid": False,
+        "axes.edgecolor": "darkslategrey",
+        "axes.spines.top": False,
+        "axes.spines.right": False,
+        "axes.spines.left": True,
+        "xtick.color": "darkslategrey",
+        "xtick.labelsize": "medium",
+        "xtick.labelcolor": "darkslategrey",
+        "xtick.bottom": True,
+        "xtick.major.size": 3,
+        "ytick.color": "darkslategrey",
+        "ytick.major.size": 3,
+        "ytick.left": True,
+        "ytick.labelsize": "medium"
+    }
+    discrete_palette = sns.color_palette("tab10")
+    unsigned_palette = sns.color_palette("viridis")
+    signed_palette = sns.color_palette("BrBG")
 
 
 def tokenize(text):
@@ -23,3 +49,12 @@ def multiprocess_log(status_msg, lock=None):
             logging.info("[PID: {}] {}".format(os.getpid(), status_msg))
     else:
         logging.info(status_msg) 
+
+
+def read_json(path):
+    if not isinstance(path, Path):
+        path = Path(path)
+    with open(path, "r") as fp:
+        return json.load(fp)
+
+

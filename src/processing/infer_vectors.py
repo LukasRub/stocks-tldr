@@ -33,7 +33,8 @@ ENTITY_VECTORS_FILENAME_FMT = "{ticker_sybmol}.vpe{vecs_per_ent}.ep{epochs}.ev.v
 LOCK = Lock()
 
 
-def infer_single_article_vectors(model, vectors_per_article, article_path, lock=LOCK):
+def infer_single_article_vectors(model, vectors_per_article, article_path, 
+                                 lock=LOCK):
     # Read and tokenize article text
     with open(article_path, "r", encoding="utf-8") as fp:
         article_txt = fp.read()
@@ -63,7 +64,10 @@ def infer_single_article_vectors(model, vectors_per_article, article_path, lock=
     return (article_path.name, avs)
 
 
-def infer_single_entity_vectors(model, vectors_per_entity, entity_path, lock=LOCK):
+def infer_single_entity_vectors(model, vectors_per_entity, entity_path, lock=LOCK,
+                                path_to_vectors=str(PATH_TO_VECTORS),
+                                entity_vectors_dir=str(ENTITY_VECTORS_DIR),
+                                entity_vectors_file_fmt=str(ENTITY_VECTORS_FILENAME_FMT)):
     # Setting up representations for the entity and model in question
     entity_ticker = entity_path.name.split(".")[0]
     model_name = model_str_repr(model)
@@ -72,10 +76,10 @@ def infer_single_entity_vectors(model, vectors_per_entity, entity_path, lock=LOC
     fmt = dict(ticker_sybmol=entity_ticker, vecs_per_ent=vectors_per_entity,
                epochs=model.epochs)
 
-    evs_path = (Path(PATH_TO_VECTORS) 
+    evs_path = (Path(path_to_vectors) 
                     / Path(model_name)  
-                    / Path(ENTITY_VECTORS_DIR)
-                    / Path(ENTITY_VECTORS_FILENAME_FMT.format(**fmt)))
+                    / Path(entity_vectors_dir)
+                    / Path(entity_vectors_file_fmt.format(**fmt)))
     
     # Skip inferring vectors for this entity if they were computed before
     evs_path_ = Path(evs_path.as_posix() + ".npz")
@@ -90,7 +94,7 @@ def infer_single_entity_vectors(model, vectors_per_entity, entity_path, lock=LOC
         multiprocess_log(status_msg, lock)
 
     # Read entity file
-    with open(entity_path, "r", encoding="utf-8") as fp:
+    with open(entity_path, "r") as fp:
         entity = json.load(fp)
     
     # Initializing empty arrays for entity vectors
@@ -129,17 +133,20 @@ def infer_single_entity_vectors(model, vectors_per_entity, entity_path, lock=LOC
 
 
 def infer_article_vectors(model, vectors_per_article, lock=LOCK, 
-                          article_paths=str(PATH_TO_ARTICLES)):           
+                          article_paths=str(PATH_TO_ARTICLES),
+                          path_to_vectors=str(PATH_TO_VECTORS),
+                          article_vectors_dir=str(ARTICLE_VECTORS_DIR),
+                          article_vectors_file_fmt=str(ENTITY_VECTORS_FILENAME_FMT)):           
     # Setting up model str representation and paths
     model_name = model_str_repr(model)
     article_paths = sorted(Path(article_paths).glob("*.txt"), 
                            key=lambda x: int(x.name.split(".")[0][-1]))
     
     fmt = dict(vecs_per_article=vectors_per_article, epochs=model.epochs)
-    avs_path = (Path(PATH_TO_VECTORS) 
+    avs_path = (Path(path_to_vectors) 
                     / Path(model_name)  
-                    / Path(ARTICLE_VECTORS_DIR)
-                    / Path(ARTICLE_VECTORS_FILENAME_FMT.format(**fmt)))
+                    / Path(article_vectors_dir)
+                    / Path(article_vectors_file_fmt.format(**fmt)))
 
     # Skip inferring vectors for this entity if they were computed before
     if avs_path.exists() and avs_path.is_file():
@@ -176,7 +183,7 @@ def infer_article_vectors(model, vectors_per_article, lock=LOCK,
 
 
 def infer_entity_vectors(model, vectors_per_entity, lock=LOCK, 
-                        entity_paths=str(PATH_TO_ENTITIES)):
+                         entity_paths=str(PATH_TO_ENTITIES)):
     # Setting up paths
     entity_paths = sorted(Path(entity_paths).glob("*.json"),
                           key=lambda x: x.name.split(".")[0])
@@ -194,7 +201,7 @@ def infer_entity_vectors(model, vectors_per_entity, lock=LOCK,
 
 
 def infer_model_vectors(model_path, vectors_per_article=100, 
-         vectors_per_entity=10, lock=LOCK):
+                        vectors_per_entity=10):
     assert model_path.exists() and model_path.is_file()
     
     # Load model
@@ -204,18 +211,17 @@ def infer_model_vectors(model_path, vectors_per_article=100,
     infer_article_vectors(model, vectors_per_article)
 
     # Infer entity vectors
-    # infer_entity_vectors(model, vectors_per_entity)    
+    infer_entity_vectors(model, vectors_per_entity)    
 
 
 def main(model_directories=MODEL_DIRECTORIES, vectors_per_article=100, 
-         vectors_per_entity=10, lock=LOCK):
+         vectors_per_entity=10):
     
     model_directory_paths = [Path(model_dir) for model_dir in model_directories]
     model_paths = [model_dir / model_dir.name for model_dir in model_directory_paths]
     
     for model_path in tqdm(model_paths):
-        infer_model_vectors(model_path, vectors_per_article=100, 
-                            vectors_per_entity=10)
+        infer_model_vectors(model_path, vectors_per_article, vectors_per_entity)
 
 
 
