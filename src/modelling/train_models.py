@@ -106,7 +106,7 @@ def main():
             "negative": [30]        # "negative": [30]
         },
         {
-            "vector_size": [100, 150, 200],
+            "vector_size": [100, 150, 200], # Comment
             "epochs": [20, 30, 40],
             "window": [1, 2], 
             "negative": [20]
