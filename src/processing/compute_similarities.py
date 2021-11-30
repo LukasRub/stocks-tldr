@@ -10,17 +10,18 @@ from multiprocessing import Lock, cpu_count
 import numpy as np
 from joblib import Parallel, delayed
 
-# spec = importlib.util.spec_from_file_location("utils", "src/processing/utils.py")
-# utils = importlib.util.module_from_spec(spec)
-# spec.loader.exec_module(utils)
+spec = importlib.util.spec_from_file_location("utils", "src/processing/utils.py")
+utils = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(utils)
+
 
 MODEL_PATH = "data/test/user_study/vectors/Doc2Vec(dm-c,d100,n20,w4,mc5,s1e-05,t4,ep20)"
 ARTICLE_VECTORS_PATH_FMT = "article_vectors/{set_prefix}vpa100.ep{epochs}.av.vectors.npy"
 ENTITY_VECTORS_DIR = "entity_vectors"
 SIMILARITIES_DIR = MODEL_PATH / Path("similarities/validation")
-SIMILARITIES_FILE_NAME = "{ticker_symbol}.validation.similarities.json"
-
+SIMILARITIES_FILE_NAME_FMT = "{ticker_symbol}.validation.similarities.json"
 LOCK = Lock()
+
 
 def cosine_similarity(a, e):
     return (np.einsum('ij,ij->i', a, e) 
@@ -50,12 +51,12 @@ def reshape_to_2d(array):
 def calculate_similarities(avs, evs_path): 
     entity = evs_path.name.split(".")[0]
     similarities_dir = Path(SIMILARITIES_DIR)
-    similarities_file = SIMILARITIES_FILE_NAME.format(ticker_symbol=entity)
+    similarities_file = SIMILARITIES_FILE_NAME_FMT.format(ticker_symbol=entity)
     similarities_path = similarities_dir / similarities_file 
 
     if similarities_path.exists() and similarities_path.is_file():
         status_msg = f"similarities for entity {entity} already exist"
-        multiprocess_log(status_msg, LOCK)
+        utils.multiprocess_log(status_msg, LOCK)
         return
     else: similarities_dir.mkdir(exist_ok=True)
 
@@ -81,7 +82,7 @@ def calculate_similarities(avs, evs_path):
         sims_str_repr = "\t".join([k + ":" + str(v) 
                                    for k, v in entity_similarities.items()])
         status_msg = f"{article_index}\t{entity}\t{sims_str_repr}"
-        multiprocess_log(status_msg, LOCK)
+        utils.multiprocess_log(status_msg, LOCK)
 
         article_similarities[article_index] = entity_similarities
         

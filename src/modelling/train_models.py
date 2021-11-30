@@ -99,11 +99,9 @@ def main():
             "window": [2],          # "window": [1,2], 
             "negative": [30]        # "negative": [30]
         }
-
     ]
    
     for params in ParameterGrid(param_grid):
-
         
         model = Doc2Vec(**params, **common_params)
 

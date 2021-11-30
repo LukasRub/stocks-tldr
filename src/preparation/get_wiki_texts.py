@@ -1,6 +1,7 @@
 import json
 import logging
 import warnings
+import importlib
 from datetime import timedelta  
 from pathlib import Path
 from functools import partial
@@ -9,10 +10,13 @@ from multiprocessing import Lock, cpu_count
 import wikipedia
 from wikipedia.exceptions import WikipediaException
 from joblib import Parallel, delayed
-from tqdm.contrib.concurrent import  thread_map
-from tqdm import tqdm  
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+
+
+spec = importlib.util.spec_from_file_location("utils", "src/processing/utils.py")
+utils = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(utils)
 
 
 PATH_TO_STOCKS = "data/processed/stocks/revolut.2021-07-05.complete.stocks.jsonl"
@@ -20,13 +24,6 @@ PATH_TO_EXISTING_ENTINTIES = "data/samples/sample_entities/revolut.2021-08-19.to
 PATH_TO_ENTITIES_DIR = "data/processed/entities"
 ENTITY_FILENAME_FMT = "{entity}.ce{n_child}.entity.json"
 LOCK = Lock()
-
-
-def tokenize(text):
-    stop_words = set(stopwords.words('english'))
-    tokenized = [token.lower() for token in word_tokenize(text) if token.isalpha()]
-    filtered = [token for token in tokenized if not token in stop_words]
-    return filtered
 
 
 def valid_paragraph(paragraph):
@@ -38,35 +35,36 @@ def get_plaintext(page_content):
     return ' '.join([paragraph for paragraph in page_content.split('\n') 
                      if valid_paragraph(paragraph)])
 
+
 def extract_and_process_page_content(page, entity="parent"):
     wiki_content = dict()
     if entity == "parent":
         # Extracting wiki page content for the parent entity
-        wiki_content["full_text"] = tokenize(get_plaintext(page.content))
-        wiki_content["summary"] = tokenize(page.summary)
+        wiki_content["full_text"] = utils.tokenize(get_plaintext(page.content))
+        wiki_content["summary"] = utils.tokenize(page.summary)
     elif entity != "parent":
         # Extracting wiki page content for the child entity
         wiki_content["title"] = entity
-        wiki_content["summary"] = tokenize(page.summary)
+        wiki_content["summary"] = utils.tokenize(page.summary)
     return wiki_content
 
 
 def extract_and_save_entity_data(existing_entities, entity):
 
-    # Make sure to set wikipedia rate limiting to true
+    # Make sure to set wikipedia rate limiting to true due to ethical reasons
     wikipedia.set_rate_limiting(True, min_wait=timedelta(milliseconds=100))
   
     if entity["ticker_symbol"] not in existing_entities:
 
         # Extracting wiki page's contents for the parent entity
         with warnings.catch_warnings():
+            # Ignoring irrelevant internal library warning we can do nothing about
             warnings.simplefilter("ignore")
             page = wikipedia.WikipediaPage(pageid=entity["wiki_page_id"])
         entity["wiki_page_content"] = extract_and_process_page_content(page)
 
         # Extracting wiki pages' contents for the child entities
         entity["child_entities"] = list()
-        
        
         for child_entity in page.links:
             try:
@@ -82,14 +80,15 @@ def extract_and_save_entity_data(existing_entities, entity):
                 entity["child_entities"].append(child_entity)
     else:
         # Parent and child entities' wiki page contents already exist in
-        # `existing_entities` dict
+        # `existing_entities` dictionary, just extracting them and renaming keys
+        # to follow new conventions
 
         # Extracting wiki page's contents from the existing parent entity 
         existing_entity = existing_entities[entity["ticker_symbol"]]
         entity["wiki_page_content"] = dict(full_text=existing_entity["content"],
                                            summary=existing_entity["summary"])
         
-        # Extracting wiki page's contents from existing child entities
+        # Extracting wiki page contents from existing child entities
         entity["child_entities"] = list()
         
         for existing_child_entity in existing_entity["entities"]:                                       
@@ -97,7 +96,7 @@ def extract_and_save_entity_data(existing_entities, entity):
                                 summary=existing_child_entity["summary"])
             entity["child_entities"].append(child_entity)
 
-    # Save entity data to it's own destination
+    # Save entity data to its own destination
     fmt = dict(entity=entity["ticker_symbol"], n_child=len(entity["child_entities"]))
     entity_filename = ENTITY_FILENAME_FMT.format(**fmt)
     path_to_entity_file = Path(PATH_TO_ENTITIES_DIR) / entity_filename
@@ -105,20 +104,11 @@ def extract_and_save_entity_data(existing_entities, entity):
         json.dump(entity, fp, ensure_ascii=False, indent="\t")
 
 
-def read_jsonl_file(filename):
-    objects = list()
-    with open(filename, "r", encoding="utf-8") as fp:
-        for line in fp:
-            obj = json.loads(line)
-            objects.append(obj)
-    return objects
-
-
 def main(stocks_path=str(PATH_TO_STOCKS),
          existing_entities_path=str(PATH_TO_EXISTING_ENTINTIES),
          path_to_entities_dir=str(PATH_TO_ENTITIES_DIR)):
 
-    # Prepare paths
+    # Setting up paths
     stocks_path = Path(stocks_path)
     assert stocks_path.exists() and stocks_path.is_file()
 
@@ -130,8 +120,8 @@ def main(stocks_path=str(PATH_TO_STOCKS),
     assert path_to_entities_dir.exists() and path_to_entities_dir.is_dir()
 
     # Read stocks and existing entities JSONL files
-    stocks = read_jsonl_file(stocks_path)
-    existing_entities = read_jsonl_file(existing_entities_path)
+    stocks = utils.read_jsonl(stocks_path)
+    existing_entities = utils.read_jsonl(existing_entities_path)
 
     # Re-organize `existing_entities` list to a dict
     existing_entities = {entity["name"]:entity for entity in existing_entities}
@@ -142,8 +132,6 @@ def main(stocks_path=str(PATH_TO_STOCKS),
     
     parallelized = Parallel(n_jobs=cpu_count()*8, backend="threading", verbose=60, 
                             batch_size=1, mmap_mode=None, require=None)
-
-    # with tqdm(total=len(stocks)) as pbar:
     parallelized(delayed(extract_and_save_entity_data_)(stock) for stock in stocks)
 
 

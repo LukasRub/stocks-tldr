@@ -1,6 +1,7 @@
 import os
 import json
 import logging
+import importlib
 from pathlib import Path
 from multiprocessing import Lock, cpu_count
 
@@ -9,17 +10,21 @@ import pandas as pd
 from joblib import Parallel, delayed
 from sklearn.model_selection import ParameterGrid
 
+spec = importlib.util.spec_from_file_location("utils", "src/processing/utils.py")
+utils = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(utils)
+
+spec = importlib.util.spec_from_file_location("similarity", "src/processing/compute_similarities.py")
+similarity = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(similarity)
+
 
 RUN_FILE_LINE_FMT = "{article_id} Q0 {entity} {rank} {score} {run_id}"
 PATH_TO_VECTORS = "data/test/trec_eval/vectors"
 RUN_FILES_DIR = "run_files"
 SIMILARITIES_FILE = "similarities.json"
+
 LOCK = Lock()
-
-
-def multiprocess_log(status_msg, lock=LOCK):
-    with lock:
-        logging.info("[PID:{}] {}".format(os.getpid(), status_msg))
 
 
 def get_similarity_score(similarities_dict, p, strategy):
@@ -27,7 +32,7 @@ def get_similarity_score(similarities_dict, p, strategy):
     return (p * similarities_dict[key]) + (1-p) * similarities_dict["evs_child"]
 
 
-def score_model_performance(model_path):
+def score_model_performance(model_path, lock=LOCK):
     model = model_path.name
 
     # Read in similarities generated using this model
@@ -48,42 +53,41 @@ def score_model_performance(model_path):
         run_id = f"run.{model}.r({ratio}).{strategy}"
         run_file = model_path / RUN_FILES_DIR / (run_id + ".txt")
 
-        if not run_file.exists():
-            run_file.parent.mkdir(exist_ok=True)
-            
-            # Lines to be written to the run file
-            run_file_lines = []
-            for article_id, entities in similarities.items():
-                scores = (pd.Series(
-                            {entity: get_similarity_score(similarities, ratio, strategy)
-                            for entity, similarities in entities.items()}))
-                rankings = pd.Series(np.arange(len(scores)), 
-                                     index=scores.index[scores.argsort()[::-1]])
-
-                # Generate lines that will be written to the run file regarding
-                # the current article
-                article_run_file_lines = []
-                for entity in entities.keys():
-                    line = (RUN_FILE_LINE_FMT
-                                .format(article_id=article_id,
-                                        entity=entity,
-                                        rank=rankings[entity],
-                                        score=scores[entity],
-                                        run_id=run_id))
-                    article_run_file_lines.append(line)
-                    multiprocess_log(line)
-                
-                # Append run file lines to the global list
-                run_file_lines += article_run_file_lines 
-            
-            # Write run file lines to a target run file
-            with open(run_file, "w") as fp:
-                fp.write("\n".join(run_file_lines))
-
-        else:
+        if run_file.exists():
             status_msg = f"Run file {run_file} already extists"
-            multiprocess_log(status_msg)
+            utils.multiprocess_log(status_msg)
+            return
 
+        run_file.parent.mkdir(exist_ok=True)
+        
+        # Lines to be written to the run file
+        run_file_lines = []
+        for article_id, entities in similarities.items():
+            scores = (pd.Series(
+                        {entity: get_similarity_score(similarities, ratio, strategy)
+                        for entity, similarities in entities.items()}))
+            rankings = pd.Series(np.arange(len(scores)), 
+                                    index=scores.index[scores.argsort()[::-1]])
+
+            # Generate lines that will be written to the run file regarding
+            # the current article
+            article_run_file_lines = []
+            for entity in entities.keys():
+                line = RUN_FILE_LINE_FMT.format(article_id=article_id,
+                                                entity=entity,
+                                                rank=rankings[entity],
+                                                score=scores[entity],
+                                                run_id=run_id)
+                article_run_file_lines.append(line)
+                utils.multiprocess_log(line, lock)
+            
+            # Append run file lines to the global list
+            run_file_lines += article_run_file_lines 
+        
+        # Write run file lines to a target run file
+        with open(run_file, "w") as fp:
+            fp.write("\n".join(run_file_lines))
+            
 
 def main():
     model_paths = list(Path(PATH_TO_VECTORS).glob("*/"))

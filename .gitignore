@@ -1,6 +1,7 @@
 
 # VS Code cache and files
 stocks.code-workspace
+.vscode/
 
 # Data
 data/

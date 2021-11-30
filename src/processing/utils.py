@@ -58,3 +58,8 @@ def read_json(path):
         return json.load(fp)
 
 
+def read_jsonl(path):
+    if not isinstance(path, Path):
+        path = Path(path)
+    with open(path, "r", encoding="utf8") as fp:
+        return [json.loads(line) for line in fp]

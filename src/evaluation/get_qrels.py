@@ -1,8 +1,12 @@
-import argparse
-import logging
 import json
+import logging
+import argparse
+import importlib
 from pathlib import Path
 
+spec = importlib.util.spec_from_file_location("utils", "src/processing/utils.py")
+utils = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(utils)
 
 QRELS_LINE_FMT = "{article_id} 0 {ticker} {relevance}"
 
@@ -42,11 +46,10 @@ def filter_stocks(stocks_list, attribs=["name", "ticker", "sector", "industry", 
     """
     filtered_list = list()
     for stock in stocks_list:
-        if stock["wiki"] is not None:
-            filtered_stock = dict()
-            for attr in attribs:
-                filtered_stock[attr] = stock[attr]
-            filtered_list.append(filtered_stock)
+        filtered_stock = dict()
+        for attr in attribs:
+            filtered_stock[attr] = stock[attr]
+        filtered_list.append(filtered_stock)
     return filtered_list
 
 
@@ -62,8 +65,8 @@ def read_jsonl_file(filename, processing_func=None):
 
 
 def main(labels_file, stocks_file, output_path):
-    labels = read_jsonl_file(labels_file)
-    stocks = read_jsonl_file(stocks_file, processing_func=filter_stocks)
+    labels = utils.read_jsonl(labels_file)
+    stocks = utils.read_jsonl(stocks_file)
     qrels = get_qrels(labels, stocks)
     write_qrels_to_file(qrels, output_path)
 
