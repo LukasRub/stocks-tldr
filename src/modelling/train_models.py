@@ -60,16 +60,22 @@ def create_or_load_tagged_corpus(source, force_create=False, source_serialized="
                                 len([child for child in Path(source_serialized).glob("*.pkl")]) > 0)
 
     if force_create or not serialized_corpus_exists:
-        # Takes too long to stream from file; can afford to just put it in memory
-        tagged_corpus = list(TaggedWaPoLineCorpus(source))
+        # Streaming and tagging (as per gensim model training requirements) document corpus from disk 
+        # requires a significantly long time - about 65 minutes on an Intel i5-8265U machine - 
+        # - uncomment the follwing line if can afford to just put it in memory (~30GB)
+        # tagged_corpus = list(TaggedWaPoLineCorpus(source))
 
-        # Serialize tagged corpus so that we could skip the tagging step in future uses
-        Path(source_serialized).mkdir(exist_ok=True)
-        timestamp = datetime.today().strftime('%Y-%m-%dT%H:%M:%S')
-        filename = "WaPo_Tagged_corpus_{0}.pkl".format(timestamp)
-        output_path = Path(source_serialized).joinpath(filename)
-        logging.info("Serializing tagged corpus at {0}...".format(output_path))
-        pickle.dump(tagged_corpus, open(output_path, "wb"), pickle.HIGHEST_PROTOCOL)
+        # Otherwise:
+        tagged_corpus = TaggedWaPoLineCorpus(source)
+
+        if not serialized_corpus_exists:
+            # Serialize tagged corpus so that we could skip the tagging step in future uses
+            Path(source_serialized).mkdir(exist_ok=True)
+            timestamp = datetime.today().strftime('%Y-%m-%dT%H:%M:%S')
+            filename = "WaPo_Tagged_corpus_{0}.pkl".format(timestamp)
+            output_path = Path(source_serialized).joinpath(filename)
+            logging.info("Serializing tagged corpus at {0}...".format(output_path))
+            pickle.dump(tagged_corpus, open(output_path, "wb"), pickle.HIGHEST_PROTOCOL)
 
     elif serialized_corpus_exists:
         files = sorted([child for child in Path(source_serialized).glob("*.pkl")])
@@ -86,7 +92,7 @@ def create_or_load_tagged_corpus(source, force_create=False, source_serialized="
 
 
 def main():
-    documents = create_or_load_tagged_corpus("data/processed/articles/")
+    documents = create_or_load_tagged_corpus("data/processed/articles/", force_create=True)
 
     common_params = dict(dm=1, dm_concat=1, hs=0, min_count=5,  
                          sample=1e-5, workers=multiprocessing.cpu_count())
@@ -98,19 +104,24 @@ def main():
             "epochs": [40],         # "epochs": [40],
             "window": [2],          # "window": [1,2], 
             "negative": [30]        # "negative": [30]
-        }
+        },
+        {
+            "vector_size": [100, 150, 200],
+            "epochs": [20, 30, 40],
+            "window": [1, 2], 
+            "negative": [20]
+        },
 
     ]
    
     for params in ParameterGrid(param_grid):
 
-        
         model = Doc2Vec(**params, **common_params)
 
         # Creating a directory for model and log files
         filename = get_model_str_repr(model)
         output_path = Path(f"models/{filename}")
-        output_path.mkdir(exist_ok=True)
+        output_path.mkdir(exist_ok=True, parents=True)
 
         # Setting up logging to file
         logging_fmt = logging.getLogger().handlers[0].formatter
@@ -123,7 +134,7 @@ def main():
         model.build_vocab(documents)
         
         logging.info(f"Training {str(model)}...")
-        model.train(documents, total_examples=len(documents), epochs=model.epochs)
+        model.train([documents], total_examples=len(documents), epochs=model.epochs)
 
         # Save model to file
         logging.info(f"Saving {str(model)} to file {str(output_path)}...")
