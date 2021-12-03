@@ -104,26 +104,11 @@ def main():
             "epochs": [40],         # "epochs": [40],
             "window": [2],          # "window": [1,2], 
             "negative": [30]        # "negative": [30]
-<<<<<<< HEAD
         }
     ]
    
     for params in ParameterGrid(param_grid):
         
-=======
-        },
-        {
-            "vector_size": [100, 150, 200], # Comment
-            "epochs": [20, 30, 40],
-            "window": [1, 2], 
-            "negative": [20]
-        },
-
-    ]
-   
-    for params in ParameterGrid(param_grid):
-
->>>>>>> e12cc85b4a757a3f7a9b231dc16b6dadf2d7aff4
         model = Doc2Vec(**params, **common_params)
 
         # Creating a directory for model and log files

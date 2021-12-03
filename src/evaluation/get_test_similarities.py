@@ -26,10 +26,11 @@ LOCK = Lock()
 def calculate_similarities(model_path, lock=LOCK):
     # Setting string representation for easier use across functions
     model = model_path.name
-    model_epochs = re.search("ep\d+", model_path.name).group()[2:]
+    model_epochs = int(re.search("ep\d+", model_path.name).group()[2:])
+
 
     # Setting path (no need to sort) and loading article vectors
-    avs_path = model_path  / (similarity.ARTICLE_VECTORS_PATH_FMT
+    avs_path = model_path / (similarity.ARTICLE_VECTORS_PATH_FMT
                                 .format(set_prefix="", epochs=model_epochs))
     avs = np.load(avs_path)
 
@@ -85,9 +86,13 @@ def calculate_similarities(model_path, lock=LOCK):
 
 def main():
     # Setting up paths, sorted by model window sizes
-    model_paths = sorted(list(Path(PATH_TO_VECTORS).glob("*/*")),
+    model_paths = sorted(list(Path(PATH_TO_VECTORS).glob("*")),
                          key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
 
+    # WARNING: This code is parallelized across each model and loads all associated
+    # vector arrays with the models into memory. For 8 core machine (meaning 8 simulatanious
+    # model arrays in memory) this could take up to 40 GB, so a 32 GB machine with appropriate
+    # swap size is recommended
     parallelized = Parallel(n_jobs=cpu_count(), backend="multiprocessing", verbose=40, 
                             batch_size=1, max_nbytes=None, mmap_mode=None)
     parallelized(delayed(calculate_similarities)(model_path) for model_path in model_paths)

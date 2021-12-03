@@ -7,8 +7,6 @@ from multiprocessing import Lock, cpu_count
 
 import numpy as np
 from joblib import Parallel, delayed
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
 from gensim.models.doc2vec import Doc2Vec, FAST_VERSION
 
 spec = importlib.util.spec_from_file_location("utils", "src/processing/utils.py")
@@ -32,7 +30,7 @@ def read_and_process_articles(article_paths):
     for i, path in enumerate(article_paths):
         # Assering that loop index matches with the filename of the article
         assert i == int(path.stem)
-        with open(path, "r", encoding="utf-8") as fp:
+        with open(path, "rt", encoding="utf-8") as fp:
             full_txt = fp.read()
         articles.append(utils.tokenize(full_txt))
     return articles
@@ -66,7 +64,7 @@ def infer_entity_vectors(model, entity, lock=LOCK, vectors_per_entity=10):
     status_msg = ("Inferring entity {} vectors with model {}"
                     .format(entity["ticker"], 
                             utils.get_doc2vec_model_str_repr(model)))
-    utils.multiproccess_print(status_msg, lock)
+    utils.multiprocess_log(status_msg, lock)
 
     # Inferring vectors for the parent entity
     for i in range(vectors_per_entity):
@@ -100,12 +98,12 @@ def infer_vectors(articles, entities, model_path, lock=LOCK, vectors_per_entity=
         avs_path.parent.mkdir(parents=True, exist_ok=True)
         avs = infer_article_vectors(model, articles, lock=lock, 
                                     vectors_per_article=vectors_per_article)
-        utils.multiproccess_print(("Saving article vectors for {} to {}..."
+        utils.multiprocess_log(("Saving article vectors for {} to {}..."
                                 .format(model_str_repr, avs_path)), lock)
         np.save(avs_path, avs)
     else:
         status_msg = f"Article vectors for {model_str_repr} already exist."
-        utils.multiproccess_print(status_msg, lock)
+        utils.multiprocess_log(status_msg, lock)
     
     for entity in entities:
         # Set up directories for entity vectors
@@ -129,22 +127,24 @@ def infer_vectors(articles, entities, model_path, lock=LOCK, vectors_per_entity=
                 infer_entity_vectors(model, entity, lock=lock, 
                                      vectors_per_entity=vectors_per_entity)
             )
-            utils.multiproccess_print(("Saving entity {} vectors for {} to {}..."
+            utils.multiprocess_log(("Saving entity {} vectors for {} to {}..."
                                      .format(entity_ticker, model_str_repr, evs_path)), lock)
             np.savez(evs_path, evs_full=evs_full, evs_summary=evs_summary, 
                      evs_child=evs_child)
         else:
             status_msg = f"Entity {entity_ticker} vectors for {model_str_repr} already exist."
-            utils.multiproccess_print(status_msg, lock)
+            utils.multiprocess_log(status_msg, lock)
         
 
 def main(vectors_per_article=100, vectors_per_entity=10):
     # Setting up paths to various data resources
     entities_path = Path(PATH_TO_ENTITIES)
+
     # Sorting out direct model files in order of their window sizes
     model_paths = sorted([path for path in Path(PATH_TO_MODELS).glob("*/*")
                          if path.suffix == ""], 
                          key=lambda x: int(re.search("w\d{1}", str(x)).group()[1:]))
+
     # Sorting out article text files in order in numerical order
     article_paths = sorted(list(Path(PATH_TO_ARTICLES).glob("*.txt")), 
                            key=lambda x: int(x.stem))
