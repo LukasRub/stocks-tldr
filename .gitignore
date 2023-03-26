@@ -6,6 +6,7 @@ stocks.code-workspace
 # Data
 data/
 models/
+build/
 
 # IPython checkpoints and compiled files
 __pycache__/
