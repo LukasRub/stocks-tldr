@@ -9,7 +9,7 @@ models/
 
 # IPython checkpoints and compiled files
 __pycache__/
-**.ipynb_checkpoints
+**.ipynb_checkpoints/
 
 # NumPy arrays and archives
 *.npy

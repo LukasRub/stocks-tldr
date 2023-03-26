@@ -26,8 +26,12 @@ class plotting():
         "ytick.labelsize": "medium"
     }
     discrete_palette = sns.color_palette("tab10")
-    unsigned_palette = sns.color_palette("viridis")
+    # signed_discrete_palette = sns.color_palette("Spectral", n_colors=5) 
+    signed_discrete_palette = sns.color_palette("RdYlGn", n_colors=5) 
     signed_palette = sns.color_palette("BrBG")
+    unsigned_palette = sns.color_palette("viridis")
+    
+
 
 
 def tokenize(text):

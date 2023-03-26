@@ -2,7 +2,6 @@ import re
 import json
 import argparse
 import logging
-
 from pathlib import Path
 
 import tqdm
