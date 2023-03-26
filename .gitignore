@@ -15,3 +15,6 @@ __pycache__/
 # NumPy arrays and archives
 *.npy
 *.npz
+
+# Submission folders
+submission/MSc_project/stocks-tldr*
